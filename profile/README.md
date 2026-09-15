@@ -2,7 +2,7 @@
 
 Plugins, content tools, and gameplay extensions for **Silverpine**, created by **Saelac with ChatGPT**.
 
-Build custom worlds, create items and characters, expand conversations, and tailor the game to your playthrough. Browse **45 public plugin and patcher repositories** below. Each plugin name opens its repository; **Releases** opens its download page.
+Build custom worlds, create items and characters, expand conversations, and tailor the game to your playthrough. Browse **46 public plugin and patcher repositories** below. Each plugin name opens its repository; **Releases** opens its download page.
 
 [Get started](#get-started) · [Framework and utilities](#framework-and-utilities) · [Conversations and companions](#conversations-and-companions) · [NPCs, relationships, and routines](#npcs-relationships-and-routines)
 
@@ -19,7 +19,7 @@ Build custom worlds, create items and characters, expand conversations, and tail
 
 | Plugin | What it does | Downloads |
 | --- | --- | --- |
-| [Modding Tools](https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools) | Shared framework for mod menus, UI, persistent objects, construction, audio, and dialogue integration. A dependency for many projects in this collection. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools/releases) |
+| [Modding Tools](https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools) | Shared framework for mod menus, UI, persistent objects, construction, audio, and dialogue integration, with a configurable construction shortcut (**B** by default). Required by many plugins. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools/releases) |
 | [BepInEx Folder Warnings](https://github.com/Silverpine-Modding/Silverpine-Saelac-BepInExFolderWarnings) | Detects plugin DLLs placed in the patchers folder, or patchers placed in the plugins folder, and logs instructions for correcting them. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-BepInExFolderWarnings/releases) |
 | [Salt Extra Debug](https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug) | Enables the debug menu and adds persistent gameplay controls, including free building, construction overrides, stat toggles, and NPC utilities. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug/releases) |
 
@@ -27,7 +27,7 @@ Build custom worlds, create items and characters, expand conversations, and tail
 
 | Plugin | What it does | Downloads |
 | --- | --- | --- |
-| [Arrival Meetings](https://github.com/Silverpine-Modding/Silverpine-Saelac-ArrivalMeetings) | Travel during conversations, choose destinations grouped by property owner, and bring selected or intended NPCs into the conversation on arrival. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ArrivalMeetings/releases) |
+| [Arrival Meetings](https://github.com/Silverpine-Modding/Silverpine-Saelac-ArrivalMeetings) | Travel to rooms grouped by property owner and choose arrival guests. Add nearby NPCs or remove current participants without traveling, with generated greetings and farewells. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ArrivalMeetings/releases) |
 | [Conversation Observer](https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationObserver) | Use **Step Away** to let NPCs continue talking to one another, then **Interrupt** to rejoin the conversation. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationObserver/releases) |
 | [Conversation Participant Picker](https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationParticipantPicker) | Choose which nearby, visible NPCs join a new conversation, including conversations with multiple participants. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationParticipantPicker/releases) |
 | [Follow NPC](https://github.com/Silverpine-Modding/Silverpine-Saelac-FollowNPC) | Ask an NPC to lead you somewhere, automatically follow them on foot, and resume the conversation when you arrive. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-FollowNPC/releases) |
@@ -46,7 +46,7 @@ Build custom worlds, create items and characters, expand conversations, and tail
 | [Custom Rumors](https://github.com/Silverpine-Modding/Silverpine-saelac-custom-rumors) | Configure rumor generation, recipients, and delivery; compose rumors between NPCs or tell a nearby NPC a rumor directly. | [Releases](https://github.com/Silverpine-Modding/Silverpine-saelac-custom-rumors/releases) |
 | [Dynamic NPC Relationships](https://github.com/Silverpine-Modding/Silverpine-saelac-dynamic-relationships) | Lets previously unassigned NPC pairs develop persistent relationships from their interactions, with relationship state stored per save. | [Releases](https://github.com/Silverpine-Modding/Silverpine-saelac-dynamic-relationships/releases) |
 | [Expanded Important Relationships](https://github.com/Silverpine-Modding/Silverpine-Saelac-ExpandedImportantRelationships) | Raises the custom NPC editor's important-relationship limit from two to five. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ExpandedImportantRelationships/releases) |
-| [Lua Routine Extensions](https://github.com/Silverpine-Modding/Silverpine-Saelac-LuaRoutineExtensions) | Adds schedule and NPC checks to custom-character Lua, with expanded documentation and guidance for AI-generated routines. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-LuaRoutineExtensions/releases) |
+| [Lua Routine Extensions](https://github.com/Silverpine-Modding/Silverpine-Saelac-LuaRoutineExtensions) | Adds schedule and NPC checks to custom-character Lua, guidance for AI-generated routines, and compatibility with alternate weekday-function names in existing scripts. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-LuaRoutineExtensions/releases) |
 | [Missing NPC Relationship Save Bypass](https://github.com/Silverpine-Modding/Silverpine-Saelac-MissingNPCRelationshipSaveBypass) | Allows custom NPC definitions to be saved when a relationship target is not installed, while retaining the other editor validation rules. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-MissingNPCRelationshipSaveBypass/releases) |
 | [QOLNPCSelector](https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLNPCSelector) | Toggle custom NPCs, save or restore enabled-roster presets, randomize selections, and manage individual or connected SILC files through searchable menus. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLNPCSelector/releases) |
 | [Runtime NPC Editor](https://github.com/Silverpine-Modding/Silverpine-Saelac-RuntimeNPCEditor) | Edit loaded NPC descriptions, personality traits, and the destinations and activities of existing routines through the in-game Mods menu. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-RuntimeNPCEditor/releases) |
@@ -72,6 +72,7 @@ Build custom worlds, create items and characters, expand conversations, and tail
 | --- | --- | --- |
 | [Custom Enemy Loader](https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomEnemyLoader) | Load JSON enemy packs with custom stats, combat behavior, artwork, sounds, and world-generation locations, using PNGs or GLB-rendered sprites. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomEnemyLoader/releases) |
 | [Custom World Setup](https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomWorldSetup) | Design world layouts with a visual editor, configurable terrain tiles, roads, rivers, bridges, and persistent wilderness areas. Includes optional landmark relocation addons. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomWorldSetup/releases) |
+| [Named NPC Property](https://github.com/Silverpine-Modding/Silverpine-Saelac-NamedNPCProperty) | Assign named or shared property to NPCs or the player, transfer ownership, and support house keys, local door knocking, and overnight invitations from co-owners. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-NamedNPCProperty/releases) |
 | [Silverpine Vertical Layers](https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineVerticalLayers) | Adds connected, buildable upper floors to Silverpine's base world tile, with stairs, projected floors, and structural supports. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineVerticalLayers/releases) |
 | [Structure Handler](https://github.com/Silverpine-Modding/Silverpine-Saelac-StructureHandler) | Edit, export, and import structures using shared mod menus and a main-menu structure editor, with support for terrain and placed objects. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-StructureHandler/releases) |
 | [Terrain Construction](https://github.com/Silverpine-Modding/Silverpine-Saelac-TerrainConstruction) | Adds a Terrains construction category for replacing ground and floor tiles, including persistent snowy or frozen variants, without material or hammer costs. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-TerrainConstruction/releases) |
@@ -110,4 +111,4 @@ Building a plugin? Start with the [Modding Tools framework and API documentation
 
 ---
 
-Catalog checked against the organization's public repositories on **September 9, 2026**. Version requirements and release details are maintained in each project. [Browse all repositories](https://github.com/orgs/Silverpine-Modding/repositories).
+Catalog checked against the organization's public repositories on **September 15, 2026**. Version requirements and release details are maintained in each project. [Browse all repositories](https://github.com/orgs/Silverpine-Modding/repositories).

@@ -2,7 +2,7 @@
 
 Plugins, content tools, and gameplay extensions for **Silverpine**, created by **Saelac with ChatGPT**.
 
-Build custom worlds, create items and characters, expand conversations, and tailor the game to your playthrough. Browse **46 public plugin and patcher repositories** below. Each plugin name opens its repository; **Releases** opens its download page.
+Build custom worlds, create items and characters, expand conversations, and tailor the game to your playthrough. Browse **48 public plugin and patcher repositories** below. Each plugin name opens its repository; **Releases** opens its download page.
 
 [Get started](#get-started) · [Framework and utilities](#framework-and-utilities) · [Conversations and companions](#conversations-and-companions) · [NPCs, relationships, and routines](#npcs-relationships-and-routines)
 
@@ -21,6 +21,8 @@ Build custom worlds, create items and characters, expand conversations, and tail
 | --- | --- | --- |
 | [Modding Tools](https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools) | Shared framework for mod menus, UI, persistent objects, construction, audio, and dialogue integration, with a configurable construction shortcut (**B** by default). Required by many plugins. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools/releases) |
 | [BepInEx Folder Warnings](https://github.com/Silverpine-Modding/Silverpine-Saelac-BepInExFolderWarnings) | Detects plugin DLLs placed in the patchers folder, or patchers placed in the plugins folder, and logs instructions for correcting them. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-BepInExFolderWarnings/releases) |
+| [LLM Prompt Logger](https://github.com/Silverpine-Modding/Silverpine-Saelac-LLMPromptLogger) | Records complete Silverpine LLM prompts and request details for API and local/remote Kobold generations in BepInEx and per-session log files. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-LLMPromptLogger/releases) |
+| [NPC Routine Error Reporter](https://github.com/Silverpine-Modding/Silverpine-Saelac-NPCRoutineErrorReporter) | Identifies the NPC behind routine and Lua errors, with notifications, searchable report history, source snapshots, and copy/export controls in Modding Tools. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-NPCRoutineErrorReporter/releases) |
 | [Salt Extra Debug](https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug) | Enables the debug menu and adds persistent gameplay controls, including free building, construction overrides, stat toggles, and NPC utilities. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug/releases) |
 
 ## Conversations and companions

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T01:05:24.1435466\u002B00:00",
+  "generatedAt": "2026-10-27T01:33:07.3545501\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -247,15 +247,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.10.0",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ComfyImageGenerator/releases/tag/v1.10.0",
-      "publishedAt": "2026-10-26T21:40:51Z",
-      "version": "1.10.0",
+      "releaseTag": "v1.10.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ComfyImageGenerator/releases/tag/v1.10.1",
+      "publishedAt": "2026-10-27T01:31:48Z",
+      "version": "1.10.1",
       "components": [
         {
           "id": "Saelac.Silverpine.ComfyImageGenerator",
           "name": "Comfy Image Generator",
-          "version": "1.10.0",
+          "version": "1.10.1",
           "assembly": "ComfyImageGenerator",
           "kind": "plugin",
           "dependencies": [
@@ -334,15 +334,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.6.4",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-saelac-custom-rumors/releases/tag/v1.6.4",
-      "publishedAt": "2026-09-06T22:17:47Z",
-      "version": "1.6.4",
+      "releaseTag": "v1.6.5",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-saelac-custom-rumors/releases/tag/v1.6.5",
+      "publishedAt": "2026-10-27T01:29:00Z",
+      "version": "1.6.5",
       "components": [
         {
           "id": "renegadex.silverpine.customrumors",
           "name": "Custom Rumors",
-          "version": "1.6.4",
+          "version": "1.6.5",
           "assembly": "CustomRumors",
           "kind": "plugin",
           "dependencies": [
@@ -1119,15 +1119,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.2.6",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NovelAIEndpoint/releases/tag/v1.2.6",
-      "publishedAt": "2026-08-18T14:59:16Z",
-      "version": "1.2.6",
+      "releaseTag": "v1.2.14",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NovelAIEndpoint/releases/tag/v1.2.14",
+      "publishedAt": "2026-10-27T01:30:39Z",
+      "version": "1.2.14",
       "components": [
         {
           "id": "com.silverpine.novelai-endpoint",
           "name": "NovelAI Endpoint",
-          "version": "1.2.6",
+          "version": "1.2.14",
           "assembly": "NovelAIEndpoint",
           "kind": "plugin",
           "dependencies": []
@@ -1317,15 +1317,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.0.1",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLCharSelector/releases/tag/v1.0.1",
-      "publishedAt": "2026-08-30T19:48:59Z",
-      "version": "1.0.1",
+      "releaseTag": "v1.0.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLCharSelector/releases/tag/v1.0.2",
+      "publishedAt": "2026-10-27T01:30:51Z",
+      "version": "1.0.2",
       "components": [
         {
           "id": "renegadex.silverpine.qolcharselector",
           "name": "QOLCharSelector",
-          "version": "1.0.1",
+          "version": "1.0.2",
           "assembly": "QOLCharSelector",
           "kind": "plugin",
           "dependencies": [
@@ -1348,15 +1348,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.3.0",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLNPCSelector/releases/tag/v1.3.0",
-      "publishedAt": "2026-08-30T19:50:51Z",
-      "version": "1.3.0",
+      "releaseTag": "v1.3.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLNPCSelector/releases/tag/v1.3.2",
+      "publishedAt": "2026-10-27T01:31:03Z",
+      "version": "1.3.2",
       "components": [
         {
           "id": "renegadex.silverpine.qolnpcselector",
           "name": "QOLNPCSelector",
-          "version": "1.3.0",
+          "version": "1.3.2",
           "assembly": "QOLNPCSelector",
           "kind": "plugin",
           "dependencies": []
@@ -1409,15 +1409,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v2.12.2",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-RuntimeNPCEditor/releases/tag/v2.12.2",
-      "publishedAt": "2026-09-17T21:59:55Z",
-      "version": "2.12.2",
+      "releaseTag": "v2.12.3",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-RuntimeNPCEditor/releases/tag/v2.12.3",
+      "publishedAt": "2026-10-27T01:31:15Z",
+      "version": "2.12.3",
       "components": [
         {
           "id": "renegadex.silverpine.runtimenpceditor",
           "name": "Runtime NPC Editor",
-          "version": "2.12.2",
+          "version": "2.12.3",
           "assembly": "RuntimeNPCEditor",
           "kind": "plugin",
           "dependencies": [
@@ -1471,15 +1471,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v0.26.1",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug/releases/tag/v0.26.1",
-      "publishedAt": "2026-10-25T12:41:11Z",
-      "version": "0.26.1",
+      "releaseTag": "v0.26.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug/releases/tag/v0.26.2",
+      "publishedAt": "2026-10-27T01:31:26Z",
+      "version": "0.26.2",
       "components": [
         {
           "id": "salt.silverpine.extradebug",
           "name": "Salt Extra Debug",
-          "version": "0.26.1",
+          "version": "0.26.2",
           "assembly": "SaltExtraDebug",
           "kind": "plugin",
           "dependencies": []
@@ -1527,15 +1527,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v0.4.6",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineVerticalLayers/releases/tag/v0.4.6",
-      "publishedAt": "2026-08-18T14:59:34Z",
-      "version": "0.4.6",
+      "releaseTag": "v0.4.8",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineVerticalLayers/releases/tag/v0.4.8",
+      "publishedAt": "2026-10-27T01:31:37Z",
+      "version": "0.4.8",
       "components": [
         {
           "id": "renegadex.silverpine.verticallayers",
           "name": "Silverpine Vertical Layers",
-          "version": "0.4.6",
+          "version": "0.4.8",
           "assembly": "SilverpineVerticalLayers",
           "kind": "plugin",
           "dependencies": [

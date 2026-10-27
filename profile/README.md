@@ -2,13 +2,13 @@
 
 Plugins, content tools, and gameplay extensions for **Silverpine**, created by **Saelac with ChatGPT**.
 
-Build custom worlds, create items and characters, expand conversations, and tailor the game to your playthrough. Browse **49 current plugins and patchers**, plus **2 obsolete projects** kept for reference. Each plugin name opens its repository; **Releases** opens its download page.
+Build custom worlds, create items and characters, expand conversations, and tailor the game to your playthrough. Browse **54 current plugins and patchers**, **1 standalone editor**, plus **2 obsolete projects** kept for reference. Each project name opens its repository; **Releases** opens its download page.
 
 [Get started](#get-started) · [Framework and utilities](#framework-and-utilities) · [Conversations and companions](#conversations-and-companions) · [NPCs, relationships, and routines](#npcs-relationships-and-routines)
 
 [Items, equipment, and crafting](#items-equipment-and-crafting) · [Worlds, building, and enemies](#worlds-building-and-enemies) · [Player characters and artwork](#player-characters-and-artwork) · [AI and dialogue settings](#ai-and-dialogue-settings) · [Fixes and preloader patchers](#fixes-and-preloader-patchers)
 
-[Obsolete mods and replacements](#obsolete)
+[Standalone tools](#standalone-tools) · [Obsolete mods and replacements](#obsolete)
 
 ## Get started
 
@@ -19,9 +19,12 @@ Build custom worlds, create items and characters, expand conversations, and tail
 
 ## Framework and utilities
 
+**Optional update checking:** install [Mod Update Checker](https://github.com/Silverpine-Modding/Silverpine-Saelac-ModUpdateChecker) to add **Check for Updates** in Modding Tools and the inventory Mods tab. It fetches one shared [version catalog](https://raw.githubusercontent.com/Silverpine-Modding/.github/main/versions.json) on demand, then compares installed plugin and patcher versions locally. Modding Tools does not include the checker or make update requests. [Catalog maintenance](https://github.com/Silverpine-Modding/.github/blob/main/CATALOG.md).
+
 | Plugin | What it does | Downloads |
 | --- | --- | --- |
 | [Modding Tools](https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools) | Shared framework for mod menus, UI, persistent objects, construction, audio, and dialogue integration, with a configurable construction shortcut (**B** by default). Required by many plugins. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools/releases) |
+| [Mod Update Checker](https://github.com/Silverpine-Modding/Silverpine-Saelac-ModUpdateChecker) | Optional Check for Updates addon: compares installed plugins and patchers with one public version catalog, shows obsolete replacements and dependency notes, and links to releases. No startup checks or automatic DLL replacement. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ModUpdateChecker/releases) |
 | [BepInEx Folder Warnings](https://github.com/Silverpine-Modding/Silverpine-Saelac-BepInExFolderWarnings) | Detects plugin DLLs placed in the patchers folder, or patchers placed in the plugins folder, and logs instructions for correcting them. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-BepInExFolderWarnings/releases) |
 | [LLM Prompt Logger](https://github.com/Silverpine-Modding/Silverpine-Saelac-LLMPromptLogger) | Records complete Silverpine LLM prompts and request details for API and local/remote Kobold generations in BepInEx and per-session log files. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-LLMPromptLogger/releases) |
 | [NPC Routine Error Reporter](https://github.com/Silverpine-Modding/Silverpine-Saelac-NPCRoutineErrorReporter) | Identifies the NPC behind routine and Lua errors, with notifications, searchable report history, source snapshots, and copy/export controls in Modding Tools. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-NPCRoutineErrorReporter/releases) |
@@ -31,6 +34,8 @@ Build custom worlds, create items and characters, expand conversations, and tail
 
 | Plugin | What it does | Downloads |
 | --- | --- | --- |
+| [Dialogue Box Controls](https://github.com/Silverpine-Modding/Silverpine-Saelac-DialogueBoxControls) | Adjust dialogue background opacity or hide/show the dialogue interface while leaving portraits visible and preserving the conversation and typed draft. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-DialogueBoxControls/releases) |
+| [Multi-NPC Conversation Resume](https://github.com/Silverpine-Modding/Silverpine-Saelac-MultiNPCConversationResume) | Reopen a recent conversation with the same NPC group at its last response, preserving the speaker and turn state without requesting a new greeting. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-MultiNPCConversationResume/releases) |
 | [Arrival Meetings](https://github.com/Silverpine-Modding/Silverpine-Saelac-ArrivalMeetings) | Travel to rooms grouped by property owner and choose arrival guests. Add nearby NPCs or remove current participants without traveling, with generated greetings and farewells. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ArrivalMeetings/releases) |
 | [Conversation Observer](https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationObserver) | Use **Step Away** to let NPCs talk without the player while preserving available conversation history and memories, then **Interrupt** to rejoin. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationObserver/releases) |
 | [Conversation Participant Picker](https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationParticipantPicker) | Choose which nearby, visible NPCs join a new conversation, including conversations with multiple participants. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationParticipantPicker/releases) |
@@ -88,6 +93,8 @@ Custom World Setup also packages **Acacia's Den Relocator**, **Oriana Lake Reloc
 
 | Plugin | What it does | Downloads |
 | --- | --- | --- |
+| [Camera Zoom](https://github.com/Silverpine-Modding/Silverpine-Saelac-CameraZoom) | Adjust world magnification from 0.2x to 2.0x through Modding Tools, with persistent settings, normal camera following, and the game's existing visibility rules. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-CameraZoom/releases) |
+| [Comfy Image Generator](https://github.com/Silverpine-Modding/Silverpine-Saelac-ComfyImageGenerator) | Generate scene artwork through ComfyUI using selected conversation participants, editable prompts, and Anima or Illustrious workflows. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ComfyImageGenerator/releases) |
 | [Player Character Sprite Scaler](https://github.com/Silverpine-Modding/Silverpine-Saelac-PlayerCharacterSpriteScaler) | Adjust world-sprite and portrait X/Y scaling, flip portrait artwork, and save portable SILC artwork with separate recovery backups. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-PlayerCharacterSpriteScaler/releases) |
 | [Player Dialog Art](https://github.com/Silverpine-Modding/Silverpine-Saelac-PlayerDialogArt) | Choose a temporary player dialogue portrait and independently toggle the player's AI-driven facial expressions from the in-game mod menu. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-PlayerDialogArt/releases) |
 | [QOLCharSelector](https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLCharSelector) | Adds a searchable, scrollable player-character list with names and world sprites beside the start-screen character selector. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLCharSelector/releases) |
@@ -108,6 +115,14 @@ Custom World Setup also packages **Acacia's Den Relocator**, **Oriana Lake Reloc
 | [Extended Custom NPC Slots Rumor Fix](https://github.com/Silverpine-Modding/Silverpine-Saelac-ExtendedCustomNPCSlotsRumorFix) | Repairs missing rumor entries in older saves when expanded NPC slots are used. Requires the separate ExtendedCustomNPCSlots preloader patcher; this plugin does not add slots. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ExtendedCustomNPCSlotsRumorFix/releases) |
 | [Projectile Transition Fix](https://github.com/Silverpine-Modding/Silverpine-Saelac-ProjectileTransitionFix) | Safely cancels projectiles when their owner or target disappears during a transition and handles related damage-processing null references. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-ProjectileTransitionFix/releases) |
 
+## Standalone tools
+
+These run outside Silverpine and are not BepInEx plugins or entries in the in-game update checker.
+
+| Tool | What it does | Downloads |
+| --- | --- | --- |
+| [SILC Studio](https://github.com/Silverpine-Modding/Silverpine-Saelac-SILCStudio) | Standalone desktop editor for SILC characters, NPCs, races, traits, routines, and artwork, with Windows, Linux, and macOS packages. | [Releases](https://github.com/Silverpine-Modding/Silverpine-Saelac-SILCStudio/releases) |
+
 ## Obsolete
 
 These projects are explicitly marked obsolete in their repositories. Their source and old releases remain available for reference and rollback; use the replacement for new installations.
@@ -127,4 +142,4 @@ Building a plugin? Start with the [Modding Tools framework and API documentation
 
 ---
 
-Catalog checked against the organization's public repositories on **October 12, 2026**: **51 projects — 49 current and 2 obsolete**. Version requirements and release details are maintained in each project. [Browse all repositories](https://github.com/orgs/Silverpine-Modding/repositories).
+Catalog checked against the organization's public repositories and latest stable releases on **October 26, 2026**: **57 projects — 54 current mods, 1 standalone editor, and 2 obsolete mods**. The [machine-readable mod catalog](https://github.com/Silverpine-Modding/.github/blob/main/versions.json) tracks published DLL versions and refreshes automatically. [Browse all repositories](https://github.com/orgs/Silverpine-Modding/repositories).

@@ -1,0 +1,15 @@
+{
+  "Silverpine-Saelac-SILCStudio": { "kind": "tool" },
+  "Silverpine-Saelac-CustomItemFreezeFix": {
+    "status": "obsolete",
+    "replacementRepository": "Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug",
+    "replacementMinimumVersion": "0.26.0",
+    "notes": "Replaced by SaltExtraDebug 0.26.0+. Close the game, back up and remove CustomItemFreezeFix.dll from BepInEx/plugins. Existing item data is preserved."
+  },
+  "Silverpine-Saelac-CustomItemPromptPatcher": {
+    "status": "obsolete",
+    "replacementRepository": "Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug",
+    "replacementMinimumVersion": "0.26.0",
+    "notes": "Replaced by SaltExtraDebug 0.26.0+. Close the game, back up and remove CustomItemPromptPatcher.dll from BepInEx/patchers. Do not leave the old preloader installed. Existing item data is preserved."
+  }
+}

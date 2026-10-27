@@ -1,0 +1,1711 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-27T00:46:21.2234821\u002B00:00",
+  "mods": [
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
+      "name": "AcaciaCustomContentPatcher",
+      "description": "BepInEx preloader patcher for Silverpine that removes Acacia-specific custom-content editor restrictions and preserves original personality traits when an override field is blank.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher/releases/tag/v1.0.0",
+      "publishedAt": "2026-08-18T14:58:36Z",
+      "version": "1.0.0.0",
+      "components": [
+        {
+          "id": "assembly:AcaciaCustomContentPatcher",
+          "name": "AcaciaCustomContentPatcher",
+          "version": "1.0.0.0",
+          "assembly": "AcaciaCustomContentPatcher",
+          "kind": "patcher",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaUnlocked",
+      "name": "Acacia Unlocked",
+      "description": "Silverpine BepInEx mod that expands Acacia\u0027s resident, conversation, movement, and routine behavior after she joins the player.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AcaciaUnlocked",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v2.3.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AcaciaUnlocked/releases/tag/v2.3.2",
+      "publishedAt": "2026-08-18T14:58:38Z",
+      "version": "2.3.2",
+      "components": [
+        {
+          "id": "salt.silverpine.acaciaunlocked",
+          "name": "Acacia Unlocked",
+          "version": "2.3.2",
+          "assembly": "AcaciaUnlocked",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-AdditionalEquipmentSlots",
+      "name": "Additional Equipment Slots",
+      "description": "Adds twenty-two logical equipment slots to Silverpine 1.7.3, integrated with Custom Item Loader 1.8.3 or later.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AdditionalEquipmentSlots",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.3.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AdditionalEquipmentSlots/releases/tag/v1.3.0",
+      "publishedAt": "2026-10-10T09:04:03Z",
+      "version": "1.3.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.additionalequipmentslots",
+          "name": "Additional Equipment Slots",
+          "version": "1.3.0",
+          "assembly": "AdditionalEquipmentSlots",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "renegadex.silverpine.customitemloader",
+              "minimumVersion": "1.8.3",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-ArrivalMeetings",
+      "name": "Arrival Meetings",
+      "description": "Silverpine BepInEx mod for conversation travel, rooms grouped by property owner, and bringing selected or intended NPCs into ongoing multi-NPC conversations. Created by Saelac and ChatGPT.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ArrivalMeetings",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.2.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ArrivalMeetings/releases/tag/v1.2.1",
+      "publishedAt": "2026-09-15T10:25:25Z",
+      "version": "1.2.1",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.ArrivalMeetings",
+          "name": "Arrival Meetings",
+          "version": "1.2.1",
+          "assembly": "ArrivalMeetings",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.9.3",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-AttributeExpansion",
+      "name": "Attribute Expansion",
+      "description": "An optional companion for Custom Item Loader 2.1.0 on Silverpine 1.7.3. It registers calculation-point equipment modifiers with the Custom Item Editor and patches the corresponding game formulas.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AttributeExpansion",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.3.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AttributeExpansion/releases/tag/v1.3.0",
+      "publishedAt": "2026-08-18T14:58:43Z",
+      "version": "1.3.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.attributeexpansion",
+          "name": "Attribute Expansion",
+          "version": "1.3.0",
+          "assembly": "AttributeExpansion",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "renegadex.silverpine.customitemloader",
+              "minimumVersion": "2.1.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-BepInExFolderWarnings",
+      "name": "BepInEx Folder Warnings",
+      "description": "Silverpine BepInEx utility that detects plugin DLLs placed in the patchers folder and preloader patchers placed in the plugins folder, then logs corrective warnings.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-BepInExFolderWarnings",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-BepInExFolderWarnings/releases/tag/v1.0.0",
+      "publishedAt": "2026-08-18T14:58:44Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "silverpine.bepinexfolderwarnings",
+          "name": "BepInEx Folder Warnings",
+          "version": "1.0.0",
+          "assembly": "BepInExFolderWarnings",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-BreakingAndEntering",
+      "name": "Breaking and Entering",
+      "description": "BepInEx plugin for Silverpine: radial-menu break-ins, timed door and window entry, witness reactions, and guard reports.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-BreakingAndEntering",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.2.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-BreakingAndEntering/releases/tag/v1.2.1",
+      "publishedAt": "2026-10-12T11:21:17Z",
+      "version": "1.2.1",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.BreakingAndEntering",
+          "name": "Breaking and Entering",
+          "version": "1.2.1",
+          "assembly": "BreakingAndEntering",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.0",
+              "optional": false
+            },
+            {
+              "id": "renegadex.silverpine.guardsystem",
+              "minimumVersion": null,
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CameraZoom",
+      "name": "Camera Zoom",
+      "description": "Adjustable 0.2x-2.0x camera zoom for Silverpine with Modding Tools controls and viewport-aware weather overlays.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CameraZoom",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CameraZoom/releases/tag/v1.0.1",
+      "publishedAt": "2026-10-18T16:20:40Z",
+      "version": "1.0.1",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.CameraZoom",
+          "name": "Camera Zoom",
+          "version": "1.0.1",
+          "assembly": "CameraZoom",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-ComfyImageGenerator",
+      "name": "Comfy Image Generator",
+      "description": "BepInEx image generation for Silverpine through ComfyUI: selectable characters, Illustrious/Anima prompts, visual profiles, LoRAs, caching and detailers. Created by Saelac and ChatGPT.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ComfyImageGenerator",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.10.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ComfyImageGenerator/releases/tag/v1.10.0",
+      "publishedAt": "2026-10-26T21:40:51Z",
+      "version": "1.10.0",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.ComfyImageGenerator",
+          "name": "Comfy Image Generator",
+          "version": "1.10.0",
+          "assembly": "ComfyImageGenerator",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-ConversationObserver",
+      "name": "Conversation Observer",
+      "description": "A BepInEx plugin for Silverpine that adds a Modding Tools conversation action named Step Away whenever at least two NPCs are participating.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationObserver",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.5",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationObserver/releases/tag/v1.0.5",
+      "publishedAt": "2026-09-17T13:15:30Z",
+      "version": "1.0.5",
+      "components": [
+        {
+          "id": "salt.silverpine.conversationobserver",
+          "name": "Conversation Observer",
+          "version": "1.0.5",
+          "assembly": "ConversationObserver",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.9.3",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-ConversationParticipantPicker",
+      "name": "Conversation Participant Picker",
+      "description": "Silverpine BepInEx mod that lets the player choose nearby visible NPCs when beginning a conversation, including multi-participant dialogue.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationParticipantPicker",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.1.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ConversationParticipantPicker/releases/tag/v1.1.1",
+      "publishedAt": "2026-10-27T00:13:54Z",
+      "version": "1.1.1",
+      "components": [
+        {
+          "id": "salt.silverpine.conversationparticipantpicker",
+          "name": "Conversation Participant Picker",
+          "version": "1.1.1",
+          "assembly": "ConversationParticipantPicker",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-saelac-custom-rumors",
+      "name": "Custom Rumors",
+      "description": "Configurable NPC rumor generation, targeting, and delivery behavior for Silverpine, built as a BepInEx plugin.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-saelac-custom-rumors",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.6.4",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-saelac-custom-rumors/releases/tag/v1.6.4",
+      "publishedAt": "2026-09-06T22:17:47Z",
+      "version": "1.6.4",
+      "components": [
+        {
+          "id": "renegadex.silverpine.customrumors",
+          "name": "Custom Rumors",
+          "version": "1.6.4",
+          "assembly": "CustomRumors",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.9.3",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CustomCraftingRecipes",
+      "name": "Custom Crafting Recipes",
+      "description": "A BepInEx/Harmony plugin for Silverpine 1.7.3 that completes the dormant CustomCrafting workbench with configurable, recipe-based crafting.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomCraftingRecipes",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.2.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomCraftingRecipes/releases/tag/v1.2.1",
+      "publishedAt": "2026-08-18T14:58:50Z",
+      "version": "1.2.1",
+      "components": [
+        {
+          "id": "renegadex.silverpine.customcraftingrecipes",
+          "name": "Custom Crafting Recipes",
+          "version": "1.2.1",
+          "assembly": "CustomCraftingRecipes",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": null,
+              "optional": false
+            },
+            {
+              "id": "renegadex.silverpine.customitemloader",
+              "minimumVersion": null,
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CustomEnemyLoader",
+      "name": "Custom Enemy Loader",
+      "description": "CustomEnemyLoader 1.3.12 adds JSON-defined enemies to Silverpine through BepInEx. Enemy packs can reuse a base-game enemy\u0027s movement, collision, loot, shadow, and other components while replacing its name, health, behavior, combat abilities, visuals, sounds, and world-generation locations.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomEnemyLoader",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.3.12",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomEnemyLoader/releases/tag/v1.3.12",
+      "publishedAt": "2026-08-18T14:58:53Z",
+      "version": "1.3.12",
+      "components": [
+        {
+          "id": "renegadex.silverpine.customenemyloader",
+          "name": "Custom Enemy Loader",
+          "version": "1.3.12",
+          "assembly": "CustomEnemyLoader",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.7.1",
+              "optional": false
+            },
+            {
+              "id": "renegadex.silverpine.customitemloader",
+              "minimumVersion": null,
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CustomGrowables",
+      "name": "Custom Growables",
+      "description": "A BepInEx add-on for Silverpine 1.7.3 and Custom Item Loader 2.7.0. It turns ordinary Custom Item Loader items into plantable, persistent growables by reading an optional growable block from the same item definition.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomGrowables",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.5.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomGrowables/releases/tag/v1.5.0",
+      "publishedAt": "2026-08-19T08:37:44Z",
+      "version": "1.5.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.customgrowables",
+          "name": "Custom Growables",
+          "version": "1.5.0",
+          "assembly": "CustomGrowables",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "renegadex.silverpine.customitemloader",
+              "minimumVersion": "2.9.0",
+              "optional": false
+            },
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": null,
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CustomItemFreezeFix",
+      "name": "Manual Custom Item Generator",
+      "description": "OBSOLETE: replaced by SaltExtraDebug v0.26.0 or newer, including the manual item wizard and save-loading support. Retained for historical use.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemFreezeFix",
+      "status": "obsolete",
+      "kind": "mod",
+      "notes": "Replaced by SaltExtraDebug 0.26.0\u002B. Close the game, back up and remove CustomItemFreezeFix.dll from BepInEx/plugins. Existing item data is preserved.",
+      "replacementRepository": "Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug",
+      "replacementMinimumVersion": "0.26.0",
+      "releaseTag": "v3.0.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemFreezeFix/releases/tag/v3.0.2",
+      "publishedAt": "2026-08-18T14:58:57Z",
+      "version": "3.0.2",
+      "components": [
+        {
+          "id": "silverpine.customitemfreezefix",
+          "name": "Manual Custom Item Generator",
+          "version": "3.0.2",
+          "assembly": "CustomItemFreezeFix",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CustomItemLoader",
+      "name": "Custom Item Loader",
+      "description": "A runtime BepInEx plugin for Silverpine 1.7.3. It loads custom item packs recursively from:",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemLoader",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v2.9.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemLoader/releases/tag/v2.9.1",
+      "publishedAt": "2026-08-23T21:51:46Z",
+      "version": "2.9.1",
+      "components": [
+        {
+          "id": "renegadex.silverpine.customitemloader",
+          "name": "Custom Item Loader",
+          "version": "2.9.1",
+          "assembly": "CustomItemLoader",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.4.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CustomItemPromptPatcher",
+      "name": "CustomItemPromptPatcher",
+      "description": "OBSOLETE: replaced by SaltExtraDebug v0.26.0 or newer, including the manual item wizard and save-loading support. Retained for historical use.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemPromptPatcher",
+      "status": "obsolete",
+      "kind": "mod",
+      "notes": "Replaced by SaltExtraDebug 0.26.0\u002B. Close the game, back up and remove CustomItemPromptPatcher.dll from BepInEx/patchers. Do not leave the old preloader installed. Existing item data is preserved.",
+      "replacementRepository": "Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug",
+      "replacementMinimumVersion": "0.26.0",
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemPromptPatcher/releases/tag/v1.0.0",
+      "publishedAt": "2026-08-18T14:59:01Z",
+      "version": "1.0.0.0",
+      "components": [
+        {
+          "id": "assembly:CustomItemPromptPatcher",
+          "name": "CustomItemPromptPatcher",
+          "version": "1.0.0.0",
+          "assembly": "CustomItemPromptPatcher",
+          "kind": "patcher",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CustomNPCKnowledgeVariables",
+      "name": "Custom NPC Knowledge Variables",
+      "description": "A small BepInEx side plugin for Silverpine that adds %PLAYER_NAME% support to knowledge authored through the game\u0027s built-in custom NPC editor.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomNPCKnowledgeVariables",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.1.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomNPCKnowledgeVariables/releases/tag/v1.1.1",
+      "publishedAt": "2026-08-18T14:59:03Z",
+      "version": "1.1.1",
+      "components": [
+        {
+          "id": "renegadex.silverpine.customnpcknowledgevariables",
+          "name": "Custom NPC Knowledge Variables",
+          "version": "1.1.1",
+          "assembly": "CustomNPCKnowledgeVariables",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CustomNPCSilverpineAcquaintances",
+      "name": "Custom NPC Silverpine Acquaintances",
+      "description": "",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomNPCSilverpineAcquaintances",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomNPCSilverpineAcquaintances/releases/tag/v1.0.0",
+      "publishedAt": "2026-08-26T02:17:40Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.customnpcsilverpineacquaintances",
+          "name": "Custom NPC Silverpine Acquaintances",
+          "version": "1.0.0",
+          "assembly": "CustomNPCSilverpineAcquaintances",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CustomWorldSetup",
+      "name": "Custom World Setup",
+      "description": "Custom World Setup is a BepInEx plugin for Silverpine 1.7.3 that replaces the base game\u0027s fixed world layout with a JSON-defined grid. It includes an in-game visual editor, custom road and river masks, automatic bridges, persistent wilderness tiles, and fully buildable tiles.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomWorldSetup",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomWorldSetup/releases/tag/v1.0.0",
+      "publishedAt": "2026-08-18T14:59:05Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.customworldsetup",
+          "name": "Custom World Setup",
+          "version": "1.0.0",
+          "assembly": "CustomWorldSetup",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": null,
+              "optional": false
+            }
+          ]
+        },
+        {
+          "id": "renegadex.silverpine.acaciadenrelocator",
+          "name": "Acacia\u0027s Den Relocator",
+          "version": "1.0.0",
+          "assembly": "AcaciaDenRelocator",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "renegadex.silverpine.customworldsetup",
+              "minimumVersion": null,
+              "optional": false
+            }
+          ]
+        },
+        {
+          "id": "renegadex.silverpine.orianalakerelocator",
+          "name": "Oriana Lake Relocator",
+          "version": "1.0.0",
+          "assembly": "OrianaLakeRelocator",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "renegadex.silverpine.customworldsetup",
+              "minimumVersion": null,
+              "optional": false
+            }
+          ]
+        },
+        {
+          "id": "renegadex.silverpine.orsoncabinrelocator",
+          "name": "Orson Cabin Relocator",
+          "version": "1.1.0",
+          "assembly": "OrsonCabinRelocator",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "renegadex.silverpine.customworldsetup",
+              "minimumVersion": null,
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-DialogueBoxControls",
+      "name": "Dialogue Box Controls",
+      "description": "BepInEx plugin for Silverpine: dialogue box opacity and hide/show controls below the text box, with persistent settings and Modding Tools integration. Created by Saelac and ChatGPT.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-DialogueBoxControls",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-DialogueBoxControls/releases/tag/v1.0.0",
+      "publishedAt": "2026-10-12T14:49:40Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.DialogueBoxControls",
+          "name": "Dialogue Box Controls",
+          "version": "1.0.0",
+          "assembly": "DialogueBoxControls",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-saelac-dynamic-relationships",
+      "name": "Dynamic NPC Relationships",
+      "description": "Save-scoped dynamic NPC-to-NPC relationships for Silverpine, built as a BepInEx plugin.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-saelac-dynamic-relationships",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.19.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-saelac-dynamic-relationships/releases/tag/v1.19.0",
+      "publishedAt": "2026-08-26T14:12:42Z",
+      "version": "1.19.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.dynamicnpcrelationships",
+          "name": "Dynamic NPC Relationships",
+          "version": "1.19.0",
+          "assembly": "DynamicNPCRelationships",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.9.1",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-ExpandedImportantRelationships",
+      "name": "Expanded Important Relationships",
+      "description": "Raises Silverpine\u0027s custom NPC important-relationship limit from two to five.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ExpandedImportantRelationships",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ExpandedImportantRelationships/releases/tag/v1.0.0",
+      "publishedAt": "2026-08-26T14:15:28Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.expandedimportantrelationships",
+          "name": "Expanded Important Relationships",
+          "version": "1.0.0",
+          "assembly": "ExpandedImportantRelationships",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-ExtendedCustomNPCSlotsRumorFix",
+      "name": "Extended Custom NPC Slots Rumor Fix",
+      "description": "Companion fix for ExtendedCustomNPCSlots.Patcher.dll on Silverpine 1.7.3.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ExtendedCustomNPCSlotsRumorFix",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ExtendedCustomNPCSlotsRumorFix/releases/tag/v1.0.0",
+      "publishedAt": "2026-08-18T14:59:08Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "silverpine.extendedcustomnpcslots.rumorfix",
+          "name": "Extended Custom NPC Slots Rumor Fix",
+          "version": "1.0.0",
+          "assembly": "ExtendedCustomNPCSlotsRumorFix",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-FollowNPC",
+      "name": "Follow NPC",
+      "description": "BepInEx mod for Silverpine: NPC-led walking, automatic player following, and dialogue resumption on arrival. Created by Saelac and ChatGPT.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-FollowNPC",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-FollowNPC/releases/tag/v1.0.1",
+      "publishedAt": "2026-09-09T12:56:52Z",
+      "version": "1.0.1",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.FollowNPC",
+          "name": "Follow NPC",
+          "version": "1.0.1",
+          "assembly": "FollowNPC",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.9.3",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-InstantDialoguePatcher",
+      "name": "InstantDialoguePatcher",
+      "description": "Rewrites Silverpine\u0027s compiled DialogBox.AnimateText coroutine before Assembly-CSharp loads. The game\u0027s rich-text and speaker-name preprocessing still runs, but the per-character rendering loop is replaced with full text assignment and the completed text starts on TextMeshPro page 1.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-InstantDialoguePatcher",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.1.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-InstantDialoguePatcher/releases/tag/v1.1.0",
+      "publishedAt": "2026-10-25T12:42:45Z",
+      "version": "1.1.0.0",
+      "components": [
+        {
+          "id": "assembly:InstantDialoguePatcher",
+          "name": "InstantDialoguePatcher",
+          "version": "1.1.0.0",
+          "assembly": "InstantDialoguePatcher",
+          "kind": "patcher",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-InventoryEditor",
+      "name": "Inventory Editor",
+      "description": "BepInEx plugin for Silverpine: a charcoal inventory editor with item browsing, custom text, durability, spoilage, enchantments, food and water values, gold and carrying capacity. Created by Saelac and ChatGPT.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-InventoryEditor",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.2.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-InventoryEditor/releases/tag/v1.2.0",
+      "publishedAt": "2026-10-12T10:33:17Z",
+      "version": "1.2.0",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.InventoryEditor",
+          "name": "Inventory Editor",
+          "version": "1.2.0",
+          "assembly": "InventoryEditor",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-LLMPromptLogger",
+      "name": "LLM Prompt Logger",
+      "description": "BepInEx 5 debugging plugin that logs complete Silverpine LLM prompts at generation boundaries.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-LLMPromptLogger",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-LLMPromptLogger/releases/tag/v1.0.0",
+      "publishedAt": "2026-09-15T14:25:07Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.llmpromptlogger",
+          "name": "LLM Prompt Logger",
+          "version": "1.0.0",
+          "assembly": "LLMPromptLogger",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-LuaRoutineExtensions",
+      "name": "Lua Routine Extensions",
+      "description": "Lua Routine Extensions adds read-only base-game schedule checks to the Lua environment used by Silverpine custom characters. The functions are registered in the game\u0027s own Lua function catalog, so they are also included in the creator-facing Lua documentation and AI routine-generation context.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-LuaRoutineExtensions",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.1.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-LuaRoutineExtensions/releases/tag/v1.1.1",
+      "publishedAt": "2026-09-14T11:36:19Z",
+      "version": "1.1.1",
+      "components": [
+        {
+          "id": "renegadex.silverpine.luaroutineextensions",
+          "name": "Lua Routine Extensions",
+          "version": "1.1.1",
+          "assembly": "LuaRoutineExtensions",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-MissingNPCRelationshipSaveBypass",
+      "name": "Missing NPC Relationship Save Bypass",
+      "description": "A BepInEx plugin for Silverpine 1.7.3 that allows a custom NPC definition to be saved when one or more authored relationship targets are not currently installed.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-MissingNPCRelationshipSaveBypass",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-MissingNPCRelationshipSaveBypass/releases/tag/v1.0.0",
+      "publishedAt": "2026-08-18T14:59:14Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.missingnpcrelationshipsavebypass",
+          "name": "Missing NPC Relationship Save Bypass",
+          "version": "1.0.0",
+          "assembly": "MissingNPCRelationshipSaveBypass",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-Modding-Tools",
+      "name": "Modding Tools Menu",
+      "description": "Shared menu, UI, serialization, construction, audio, and dialogue framework for Silverpine BepInEx mods. Created by Saelac and ChatGPT.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.11.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools/releases/tag/v1.11.0",
+      "publishedAt": "2026-10-27T00:45:08Z",
+      "version": "1.11.0",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.ModdingTools",
+          "name": "Modding Tools Menu",
+          "version": "1.11.0",
+          "assembly": "ModdingTools",
+          "kind": "plugin",
+          "dependencies": []
+        },
+        {
+          "id": "renegadex.silverpine.moddingtools",
+          "name": "Modding Tools Legacy GUID Compatibility",
+          "version": "1.11.0",
+          "assembly": "ModdingTools",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.11.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-ModUpdateChecker",
+      "name": "Mod Update Checker",
+      "description": "Optional BepInEx addon: Check for Updates in Modding Tools using one public version catalog, with obsolete replacements and release links. No startup requests.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ModUpdateChecker",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ModUpdateChecker/releases/tag/v1.0.0",
+      "publishedAt": "2026-10-27T00:45:12Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.ModUpdateChecker",
+          "name": "Mod Update Checker",
+          "version": "1.0.0",
+          "assembly": "ModUpdateChecker",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.11.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-MonsterDialogue",
+      "name": "Monster Dialogue",
+      "description": "Talk with Silverpine monsters and animals through native neural dialogue, with shared tile memories, editable personalities, portraits, and mixed NPC groups. Created by Saelac and ChatGPT.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-MonsterDialogue",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.6.5",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-MonsterDialogue/releases/tag/v1.6.5",
+      "publishedAt": "2026-09-06T20:23:36Z",
+      "version": "1.6.5",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.MonsterDialogue",
+          "name": "Monster Dialogue",
+          "version": "1.6.5",
+          "assembly": "MonsterDialogue",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.0",
+              "optional": false
+            },
+            {
+              "id": "renegadex.silverpine.customenemyloader",
+              "minimumVersion": null,
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-MultiNPCConversationResume",
+      "name": "Multi-NPC Conversation Resume",
+      "description": "BepInEx plugin that resumes recent multi-NPC conversations in Silverpine, with Modding Tools save support.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-MultiNPCConversationResume",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-MultiNPCConversationResume/releases/tag/v1.0.0",
+      "publishedAt": "2026-10-25T12:45:42Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.MultiNPCConversationResume",
+          "name": "Multi-NPC Conversation Resume",
+          "version": "1.0.0",
+          "assembly": "MultiNPCConversationResume",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.2",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-NamedNPCProperty",
+      "name": "Named NPC Property",
+      "description": "BepInEx mod for Silverpine: named and shared NPC property, ownership transfers, keys, local door knocking, and overnight invitations. Created by Saelac and ChatGPT.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NamedNPCProperty",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.2.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NamedNPCProperty/releases/tag/v1.2.0",
+      "publishedAt": "2026-09-26T23:06:01Z",
+      "version": "1.2.0",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.NamedNPCProperty",
+          "name": "Named NPC Property",
+          "version": "1.2.0",
+          "assembly": "NamedNPCProperty",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-NovelAIEndpoint",
+      "name": "NovelAI Endpoint",
+      "description": "Silverpine BepInEx mod that adds NovelAI as a hosted text-generation endpoint, including streaming responses, model selection, request pacing, and encrypted per-provider API-key storage.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NovelAIEndpoint",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.2.6",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NovelAIEndpoint/releases/tag/v1.2.6",
+      "publishedAt": "2026-08-18T14:59:16Z",
+      "version": "1.2.6",
+      "components": [
+        {
+          "id": "com.silverpine.novelai-endpoint",
+          "name": "NovelAI Endpoint",
+          "version": "1.2.6",
+          "assembly": "NovelAIEndpoint",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-NPCRelationshipContextOptimizer",
+      "name": "NPC Relationship Context Optimizer",
+      "description": "Reduces Silverpine dialogue prompt growth for large custom-NPC rosters while preserving relevant relationship context.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NPCRelationshipContextOptimizer",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NPCRelationshipContextOptimizer/releases/tag/v1.0.2",
+      "publishedAt": "2026-08-22T12:51:41Z",
+      "version": "1.0.2",
+      "components": [
+        {
+          "id": "silverpine.npcrelationshipcontextoptimizer",
+          "name": "NPC Relationship Context Optimizer",
+          "version": "1.0.2",
+          "assembly": "NPCRelationshipContextOptimizer",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-NPCResponseMultiplier",
+      "name": "NPC Response Multiplier",
+      "description": "Silverpine BepInEx mod that scales NPC response tokens and verbosity together through Modding Tools. Defaults to 1x.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NPCResponseMultiplier",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NPCResponseMultiplier/releases/tag/v1.0.0",
+      "publishedAt": "2026-09-09T12:55:27Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.npcresponsemultiplier",
+          "name": "NPC Response Multiplier",
+          "version": "1.0.0",
+          "assembly": "NPCResponseMultiplier",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.2",
+              "optional": false
+            },
+            {
+              "id": "renegadex.silverpine.adaptivellmcontext",
+              "minimumVersion": null,
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-NPCRoutineErrorReporter",
+      "name": "NPC Routine Error Reporter",
+      "description": "BepInEx plugin for Silverpine that identifies NPC routine and Lua errors, with a searchable Modding Tools report history.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NPCRoutineErrorReporter",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-NPCRoutineErrorReporter/releases/tag/v1.0.1",
+      "publishedAt": "2026-09-15T14:19:44Z",
+      "version": "1.0.1",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.NPCRoutineErrorReporter",
+          "name": "NPC Routine Error Reporter",
+          "version": "1.0.1",
+          "assembly": "NPCRoutineErrorReporter",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-PlayerCharacterSpriteScaler",
+      "name": "Player Character Sprite Scaler",
+      "description": "Version 1.4.0 is a BepInEx plugin for Silverpine\u0027s custom player-character editor. It provides separate X/Y controls for:",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-PlayerCharacterSpriteScaler",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.4.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-PlayerCharacterSpriteScaler/releases/tag/v1.4.0",
+      "publishedAt": "2026-08-18T14:59:18Z",
+      "version": "1.4.0",
+      "components": [
+        {
+          "id": "salt.silverpine.playercharacterspritescaler",
+          "name": "Player Character Sprite Scaler",
+          "version": "1.4.0",
+          "assembly": "PlayerCharacterSpriteScaler",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-PlayerDialogArt",
+      "name": "Player Dialog Art",
+      "description": "PlayerDialogArt is a BepInEx 5 plugin for Silverpine 1.7.3. It lets the player choose temporary dialog portrait art from the in-game ModTools menu and independently enable or disable the player\u0027s LLM-driven expression system.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-PlayerDialogArt",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.1.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-PlayerDialogArt/releases/tag/v1.1.1",
+      "publishedAt": "2026-08-18T14:59:20Z",
+      "version": "1.1.1",
+      "components": [
+        {
+          "id": "renegadex.silverpine.playerdialogart",
+          "name": "Player Dialog Art",
+          "version": "1.1.1",
+          "assembly": "PlayerDialogArt",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": null,
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-ProjectileTransitionFix",
+      "name": "Projectile Transition Fix",
+      "description": "Silverpine BepInEx fix that safely cancels projectiles whose owner or target is destroyed during transitions and recovers related damage-handling null references.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ProjectileTransitionFix",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ProjectileTransitionFix/releases/tag/v1.0.2",
+      "publishedAt": "2026-08-18T14:59:22Z",
+      "version": "1.0.2",
+      "components": [
+        {
+          "id": "silverpine.projectiletransitionfix",
+          "name": "Projectile Transition Fix",
+          "version": "1.0.2",
+          "assembly": "ProjectileTransitionFix",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-QOLCharSelector",
+      "name": "QOLCharSelector",
+      "description": "Scrollable, searchable player-character selector for Silverpine 1.7.3.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLCharSelector",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLCharSelector/releases/tag/v1.0.1",
+      "publishedAt": "2026-08-30T19:48:59Z",
+      "version": "1.0.1",
+      "components": [
+        {
+          "id": "renegadex.silverpine.qolcharselector",
+          "name": "QOLCharSelector",
+          "version": "1.0.1",
+          "assembly": "QOLCharSelector",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.9.3",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-QOLNPCSelector",
+      "name": "QOLNPCSelector",
+      "description": "Quality-of-life NPC selection and SILC management tools for Silverpine.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLNPCSelector",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.3.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-QOLNPCSelector/releases/tag/v1.3.0",
+      "publishedAt": "2026-08-30T19:50:51Z",
+      "version": "1.3.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.qolnpcselector",
+          "name": "QOLNPCSelector",
+          "version": "1.3.0",
+          "assembly": "QOLNPCSelector",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-Revealing",
+      "name": "Revealing",
+      "description": "A BepInEx addon for Silverpine 1.7.3 and Custom Item Loader 2.2.1. It lets a custom clothing or accessory item define its actual chest/waist coverage and give the LLM a precise author-written description instead of Silverpine\u0027s generic topless, pantless, or naked text.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-Revealing",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-Revealing/releases/tag/v1.0.0",
+      "publishedAt": "2026-08-18T14:59:24Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.revealing",
+          "name": "Revealing",
+          "version": "1.0.0",
+          "assembly": "Revealing",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "renegadex.silverpine.customitemloader",
+              "minimumVersion": "2.2.1",
+              "optional": false
+            },
+            {
+              "id": "renegadex.silverpine.additionalequipmentslots",
+              "minimumVersion": null,
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-RuntimeNPCEditor",
+      "name": "Runtime NPC Editor",
+      "description": "A BepInEx runtime editor for changing loaded NPC descriptions, personality traits, and the destination/activity fields of their existing routines. Version 2 uses native Silverpine button, font, input-field, transition, and scaling templates instead of IMGUI.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-RuntimeNPCEditor",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v2.12.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-RuntimeNPCEditor/releases/tag/v2.12.2",
+      "publishedAt": "2026-09-17T21:59:55Z",
+      "version": "2.12.2",
+      "components": [
+        {
+          "id": "renegadex.silverpine.runtimenpceditor",
+          "name": "Runtime NPC Editor",
+          "version": "2.12.2",
+          "assembly": "RuntimeNPCEditor",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": null,
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-SaltDialogueImpersonator",
+      "name": "Salt Dialogue Impersonator",
+      "description": "A standalone BepInEx plugin for Silverpine that replaces the dialogue debug menu\u0027s original Impersonate behavior.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltDialogueImpersonator",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.4.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltDialogueImpersonator/releases/tag/v1.4.0",
+      "publishedAt": "2026-08-26T22:10:59Z",
+      "version": "1.4.0",
+      "components": [
+        {
+          "id": "salt.silverpine.dialogueimpersonator",
+          "name": "Salt Dialogue Impersonator",
+          "version": "1.4.0",
+          "assembly": "SaltDialogueImpersonator",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.9.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug",
+      "name": "Salt Extra Debug",
+      "description": "A BepInEx 5 plugin for Silverpine that enables the game\u0027s debug menu and adds persistent runtime toggles for Free Build.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v0.26.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug/releases/tag/v0.26.1",
+      "publishedAt": "2026-10-25T12:41:11Z",
+      "version": "0.26.1",
+      "components": [
+        {
+          "id": "salt.silverpine.extradebug",
+          "name": "Salt Extra Debug",
+          "version": "0.26.1",
+          "assembly": "SaltExtraDebug",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-SilverpineGuardSystem",
+      "name": "Silverpine Guard System",
+      "description": "SilverpineGuardSystem is a BepInEx plugin that expands Silverpine\u0027s built-in NeuralNPC call_guards function.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineGuardSystem",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.3.5",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineGuardSystem/releases/tag/v1.3.5",
+      "publishedAt": "2026-10-12T11:09:49Z",
+      "version": "1.3.5",
+      "components": [
+        {
+          "id": "renegadex.silverpine.guardsystem",
+          "name": "Silverpine Guard System",
+          "version": "1.3.5",
+          "assembly": "SilverpineGuardSystem",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": null,
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-SilverpineVerticalLayers",
+      "name": "Silverpine Vertical Layers",
+      "description": "SilverpineVerticalLayers is a BepInEx plugin for Silverpine 1.7.3 that adds connected, buildable upper floors to the base Silverpine world tile.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineVerticalLayers",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v0.4.6",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineVerticalLayers/releases/tag/v0.4.6",
+      "publishedAt": "2026-08-18T14:59:34Z",
+      "version": "0.4.6",
+      "components": [
+        {
+          "id": "renegadex.silverpine.verticallayers",
+          "name": "Silverpine Vertical Layers",
+          "version": "0.4.6",
+          "assembly": "SilverpineVerticalLayers",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": null,
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-StartingInventory",
+      "name": "Starting Inventory",
+      "description": "BepInEx plugin for Silverpine: configurable new-character inventories and custom template-based starting items, with a main-menu Modding Tools editor. Created by Saelac and ChatGPT.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-StartingInventory",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-StartingInventory/releases/tag/v1.0.1",
+      "publishedAt": "2026-10-12T03:01:48Z",
+      "version": "1.0.1",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.StartingInventory",
+          "name": "Starting Inventory",
+          "version": "1.0.1",
+          "assembly": "StartingInventory",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.0",
+              "optional": false
+            },
+            {
+              "id": "renegadex.silverpine.customitemloader",
+              "minimumVersion": null,
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-StructureHandler",
+      "name": "Structure Handler",
+      "description": "Adds Structure Handler controls to Silverpine\u0027s shared in-game Mods menu and a structure editor to the main-menu mod tools.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-StructureHandler",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.2.11",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-StructureHandler/releases/tag/v1.2.11",
+      "publishedAt": "2026-10-27T00:14:08Z",
+      "version": "1.2.11",
+      "components": [
+        {
+          "id": "renegadex.silverpine.customstructures",
+          "name": "Structure Handler",
+          "version": "1.2.11",
+          "assembly": "StructureHandler",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "renegadex.silverpine.moddingtools",
+              "minimumVersion": "1.10.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-TerrainConstruction",
+      "name": "Terrain Construction",
+      "description": "Adds a Terrains category to the Modding Tools construction window. The category discovers Silverpine\u0027s serialized prefab_tile_ resources and makes every visually distinct terrain/floor tile placeable at no material or hammer cost. The redundant Wood Bridge entry is omitted because it looks identi...",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-TerrainConstruction",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.1.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-TerrainConstruction/releases/tag/v1.1.2",
+      "publishedAt": "2026-08-18T14:59:38Z",
+      "version": "1.1.2",
+      "components": [
+        {
+          "id": "renegadex.silverpine.terrainconstruction",
+          "name": "Terrain Construction",
+          "version": "1.1.2",
+          "assembly": "TerrainConstruction",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.7.0",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-ToggleFollower",
+      "name": "Toggle Follower",
+      "description": "Adds Toggle Follower to Silverpine\u0027s inventory Actions menu and to the player-action radial wheel opened with U. It is placed at the front of the shared action list so it remains on the wheel\u0027s first page.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ToggleFollower",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.3",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ToggleFollower/releases/tag/v1.0.3",
+      "publishedAt": "2026-09-06T20:27:59Z",
+      "version": "1.0.3",
+      "components": [
+        {
+          "id": "salt.silverpine.togglefollower",
+          "name": "Toggle Follower",
+          "version": "1.0.3",
+          "assembly": "ToggleFollower",
+          "kind": "plugin",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-VendorInventoryManager",
+      "name": "Vendor Inventory Manager",
+      "description": "Vendor Inventory Manager is a BepInEx plugin for Silverpine 1.7.3. It adds a Modding Tools editor on both the main menu and in-game Mods tab for assigning additional vendor stock to:",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-VendorInventoryManager",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.4.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-VendorInventoryManager/releases/tag/v1.4.2",
+      "publishedAt": "2026-08-18T14:59:42Z",
+      "version": "1.4.2",
+      "components": [
+        {
+          "id": "renegadex.silverpine.vendorinventorymanager",
+          "name": "Vendor Inventory Manager",
+          "version": "1.4.2",
+          "assembly": "VendorInventoryManager",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": null,
+              "optional": false
+            },
+            {
+              "id": "renegadex.silverpine.customitemloader",
+              "minimumVersion": null,
+              "optional": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

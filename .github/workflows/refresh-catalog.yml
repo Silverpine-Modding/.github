@@ -1,0 +1,41 @@
+name: Refresh mod version catalog
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [refresh-catalog]
+  schedule:
+    - cron: '17 */6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'tools/CatalogBuilder/**'
+      - 'catalog-overrides.json'
+      - '.github/workflows/refresh-catalog.yml'
+permissions:
+  contents: write
+concurrency:
+  group: mod-version-catalog
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+      - name: Read current public releases and DLL metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: dotnet run --project tools/CatalogBuilder -c Release -- .
+      - name: Commit changed catalog
+        run: |
+          if git diff --quiet -- versions.json; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add versions.json
+          git commit -m "Refresh published mod versions"
+          git push origin HEAD:main

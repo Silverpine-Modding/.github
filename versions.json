@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T01:33:07.3545501\u002B00:00",
+  "generatedAt": "2026-10-27T08:48:53.1691063\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -49,6 +49,37 @@
           "assembly": "AcaciaUnlocked",
           "kind": "plugin",
           "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-AdaptiveLLMContext",
+      "name": "Adaptive LLM Context",
+      "description": "Adjustable LLM context for Silverpine 1.7.3 with formula-derived pruning, response headroom, and memory budgets. BepInEx plugin with Modding Tools integration.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AdaptiveLLMContext",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AdaptiveLLMContext/releases/tag/v1.0.0",
+      "publishedAt": "2026-10-27T08:47:35Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.adaptivellmcontext",
+          "name": "Adaptive LLM Context",
+          "version": "1.0.0",
+          "assembly": "AdaptiveLLMContext",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.9.3",
+              "optional": false
+            }
+          ]
         }
       ]
     },

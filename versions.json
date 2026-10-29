@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T12:00:46.1934645\u002B00:00",
+  "generatedAt": "2026-10-29T12:03:00.4927838\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -1656,21 +1656,21 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.1.2",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-TerrainConstruction/releases/tag/v1.1.2",
-      "publishedAt": "2026-08-18T14:59:38Z",
-      "version": "1.1.2",
+      "releaseTag": "v1.1.5",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-TerrainConstruction/releases/tag/v1.1.5",
+      "publishedAt": "2026-10-29T12:01:56Z",
+      "version": "1.1.5",
       "components": [
         {
           "id": "renegadex.silverpine.terrainconstruction",
           "name": "Terrain Construction",
-          "version": "1.1.2",
+          "version": "1.1.5",
           "assembly": "TerrainConstruction",
           "kind": "plugin",
           "dependencies": [
             {
               "id": "Saelac.Silverpine.ModdingTools",
-              "minimumVersion": "1.7.0",
+              "minimumVersion": "1.12.0",
               "optional": false
             }
           ]

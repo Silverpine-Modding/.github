@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T08:48:53.1691063\u002B00:00",
+  "generatedAt": "2026-10-29T09:18:15.8341639\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -1558,21 +1558,21 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v0.4.8",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineVerticalLayers/releases/tag/v0.4.8",
-      "publishedAt": "2026-10-27T01:31:37Z",
-      "version": "0.4.8",
+      "releaseTag": "v0.4.9",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineVerticalLayers/releases/tag/v0.4.9",
+      "publishedAt": "2026-10-29T09:17:15Z",
+      "version": "0.4.9",
       "components": [
         {
           "id": "renegadex.silverpine.verticallayers",
           "name": "Silverpine Vertical Layers",
-          "version": "0.4.8",
+          "version": "0.4.9",
           "assembly": "SilverpineVerticalLayers",
           "kind": "plugin",
           "dependencies": [
             {
               "id": "Saelac.Silverpine.ModdingTools",
-              "minimumVersion": null,
+              "minimumVersion": "1.11.0",
               "optional": false
             }
           ]

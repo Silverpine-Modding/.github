@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T09:18:15.8341639\u002B00:00",
+  "generatedAt": "2026-10-29T11:59:04.5942155\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -1625,21 +1625,21 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.2.11",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-StructureHandler/releases/tag/v1.2.11",
-      "publishedAt": "2026-10-27T00:14:08Z",
-      "version": "1.2.11",
+      "releaseTag": "v1.2.12",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-StructureHandler/releases/tag/v1.2.12",
+      "publishedAt": "2026-10-29T11:58:08Z",
+      "version": "1.2.12",
       "components": [
         {
           "id": "renegadex.silverpine.customstructures",
           "name": "Structure Handler",
-          "version": "1.2.11",
+          "version": "1.2.12",
           "assembly": "StructureHandler",
           "kind": "plugin",
           "dependencies": [
             {
               "id": "renegadex.silverpine.moddingtools",
-              "minimumVersion": "1.10.0",
+              "minimumVersion": "1.12.0",
               "optional": false
             }
           ]

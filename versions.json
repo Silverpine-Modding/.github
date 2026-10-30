@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T12:03:00.4927838\u002B00:00",
+  "generatedAt": "2026-10-30T00:03:06.7383617\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -1391,6 +1391,37 @@
           "assembly": "QOLNPCSelector",
           "kind": "plugin",
           "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-QuitToMainMenu",
+      "name": "Quit to Main Menu",
+      "description": "Return to Silverpine\u0027s main menu from any in-game menu, with safe session resets and ModdingTools integration.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-QuitToMainMenu",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-QuitToMainMenu/releases/tag/v1.0.2",
+      "publishedAt": "2026-10-30T00:02:10Z",
+      "version": "1.0.2",
+      "components": [
+        {
+          "id": "Saelac.Silverpine.QuitToMainMenu",
+          "name": "Quit to Main Menu",
+          "version": "1.0.2",
+          "assembly": "QuitToMainMenu",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.12.1",
+              "optional": false
+            }
+          ]
         }
       ]
     },

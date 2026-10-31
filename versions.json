@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T14:25:04.2221620\u002B00:00",
+  "generatedAt": "2026-10-31T14:26:26.2451036\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -148,7 +148,7 @@
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AttributeExpansion",
       "name": "Attribute Expansion",
-      "description": "An optional companion for Custom Item Loader 2.1.0 on Silverpine 1.7.3. It registers calculation-point equipment modifiers with the Custom Item Editor and patches the corresponding game formulas.",
+      "description": "Optional companion for Custom Item Loader on Silverpine 1.7.3, adding equipped-item calculation modifiers and capped armor with persistent overflow tracking.",
       "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AttributeExpansion",
       "status": "active",
       "kind": "mod",

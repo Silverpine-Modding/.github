@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T14:15:07.1956114\u002B00:00",
+  "generatedAt": "2026-10-31T14:15:53.7350190\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -982,15 +982,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.12.1",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools/releases/tag/v1.12.1",
-      "publishedAt": "2026-10-29T11:59:47Z",
-      "version": "1.12.1",
+      "releaseTag": "v1.13.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools/releases/tag/v1.13.0",
+      "publishedAt": "2026-10-31T14:15:08Z",
+      "version": "1.13.0",
       "components": [
         {
           "id": "Saelac.Silverpine.ModdingTools",
           "name": "Modding Tools Menu",
-          "version": "1.12.1",
+          "version": "1.13.0",
           "assembly": "ModdingTools",
           "kind": "plugin",
           "dependencies": []
@@ -998,13 +998,13 @@
         {
           "id": "renegadex.silverpine.moddingtools",
           "name": "Modding Tools Legacy GUID Compatibility",
-          "version": "1.12.1",
+          "version": "1.13.0",
           "assembly": "ModdingTools",
           "kind": "plugin",
           "dependencies": [
             {
               "id": "Saelac.Silverpine.ModdingTools",
-              "minimumVersion": "1.12.1",
+              "minimumVersion": "1.13.0",
               "optional": false
             }
           ]

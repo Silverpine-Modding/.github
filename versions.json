@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T14:18:03.8456352\u002B00:00",
+  "generatedAt": "2026-10-31T14:19:26.6493338\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -461,7 +461,7 @@
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-CustomGrowables",
       "name": "Custom Growables",
-      "description": "A BepInEx add-on for Silverpine 1.7.3 and Custom Item Loader 2.7.0. It turns ordinary Custom Item Loader items into plantable, persistent growables by reading an optional growable block from the same item definition.",
+      "description": "BepInEx add-on for Silverpine with custom plant growth stages, seasonal growth, repeat harvests, and a dedicated editor integrated with Custom Item Loader.",
       "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomGrowables",
       "status": "active",
       "kind": "mod",

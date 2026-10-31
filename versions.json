@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T14:26:26.2451036\u002B00:00",
+  "generatedAt": "2026-10-31T21:29:24.5107793\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -432,15 +432,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.4.1",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomEnemyLoader/releases/tag/v1.4.1",
-      "publishedAt": "2026-10-31T14:12:25Z",
-      "version": "1.4.1",
+      "releaseTag": "v1.4.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomEnemyLoader/releases/tag/v1.4.2",
+      "publishedAt": "2026-10-31T21:28:26Z",
+      "version": "1.4.2",
       "components": [
         {
           "id": "renegadex.silverpine.customenemyloader",
           "name": "Custom Enemy Loader",
-          "version": "1.4.1",
+          "version": "1.4.2",
           "assembly": "CustomEnemyLoader",
           "kind": "plugin",
           "dependencies": [
@@ -468,15 +468,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.7.3",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomGrowables/releases/tag/v1.7.3",
-      "publishedAt": "2026-10-31T14:17:08Z",
-      "version": "1.7.3",
+      "releaseTag": "v1.7.4",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomGrowables/releases/tag/v1.7.4",
+      "publishedAt": "2026-10-31T21:28:25Z",
+      "version": "1.7.4",
       "components": [
         {
           "id": "renegadex.silverpine.customgrowables",
           "name": "Custom Growables",
-          "version": "1.7.3",
+          "version": "1.7.4",
           "assembly": "CustomGrowables",
           "kind": "plugin",
           "dependencies": [
@@ -529,15 +529,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v3.0.4",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemLoader/releases/tag/v3.0.4",
-      "publishedAt": "2026-10-31T14:15:41Z",
-      "version": "3.0.4",
+      "releaseTag": "v3.0.5",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemLoader/releases/tag/v3.0.5",
+      "publishedAt": "2026-10-31T21:28:20Z",
+      "version": "3.0.5",
       "components": [
         {
           "id": "renegadex.silverpine.customitemloader",
           "name": "Custom Item Loader",
-          "version": "3.0.4",
+          "version": "3.0.5",
           "assembly": "CustomItemLoader",
           "kind": "plugin",
           "dependencies": [

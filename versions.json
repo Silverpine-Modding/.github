@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T00:39:46.9198037\u002B00:00",
+  "generatedAt": "2026-11-01T01:08:48.3912178\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -468,15 +468,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.8.2",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomGrowables/releases/tag/v1.8.2",
-      "publishedAt": "2026-11-01T00:38:51Z",
-      "version": "1.8.2",
+      "releaseTag": "v1.8.3",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomGrowables/releases/tag/v1.8.3",
+      "publishedAt": "2026-11-01T01:07:46Z",
+      "version": "1.8.3",
       "components": [
         {
           "id": "renegadex.silverpine.customgrowables",
           "name": "Custom Growables",
-          "version": "1.8.2",
+          "version": "1.8.3",
           "assembly": "CustomGrowables",
           "kind": "plugin",
           "dependencies": [

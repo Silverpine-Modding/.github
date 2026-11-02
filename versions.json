@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T19:06:12.2719646\u002B00:00",
+  "generatedAt": "2026-11-02T23:19:09.9950508\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -396,15 +396,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.3.0",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomCraftingRecipes/releases/tag/v1.3.0",
-      "publishedAt": "2026-11-01T01:08:48Z",
-      "version": "1.3.0",
+      "releaseTag": "v1.3.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomCraftingRecipes/releases/tag/v1.3.1",
+      "publishedAt": "2026-11-02T22:31:53Z",
+      "version": "1.3.1",
       "components": [
         {
           "id": "renegadex.silverpine.customcraftingrecipes",
           "name": "Custom Crafting Recipes",
-          "version": "1.3.0",
+          "version": "1.3.1",
           "assembly": "CustomCraftingRecipes",
           "kind": "plugin",
           "dependencies": [
@@ -432,21 +432,21 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.4.3",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomEnemyLoader/releases/tag/v1.4.3",
-      "publishedAt": "2026-10-31T23:56:08Z",
-      "version": "1.4.3",
+      "releaseTag": "v1.4.4",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomEnemyLoader/releases/tag/v1.4.4",
+      "publishedAt": "2026-11-02T23:17:44Z",
+      "version": "1.4.4",
       "components": [
         {
           "id": "renegadex.silverpine.customenemyloader",
           "name": "Custom Enemy Loader",
-          "version": "1.4.3",
+          "version": "1.4.4",
           "assembly": "CustomEnemyLoader",
           "kind": "plugin",
           "dependencies": [
             {
               "id": "Saelac.Silverpine.ModdingTools",
-              "minimumVersion": "1.13.0",
+              "minimumVersion": "1.13.1",
               "optional": false
             },
             {
@@ -468,15 +468,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.8.3",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomGrowables/releases/tag/v1.8.3",
-      "publishedAt": "2026-11-01T01:07:46Z",
-      "version": "1.8.3",
+      "releaseTag": "v1.8.4",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomGrowables/releases/tag/v1.8.4",
+      "publishedAt": "2026-11-02T23:17:46Z",
+      "version": "1.8.4",
       "components": [
         {
           "id": "renegadex.silverpine.customgrowables",
           "name": "Custom Growables",
-          "version": "1.8.3",
+          "version": "1.8.4",
           "assembly": "CustomGrowables",
           "kind": "plugin",
           "dependencies": [
@@ -487,7 +487,7 @@
             },
             {
               "id": "Saelac.Silverpine.ModdingTools",
-              "minimumVersion": "1.13.0",
+              "minimumVersion": "1.13.1",
               "optional": false
             }
           ]
@@ -529,21 +529,21 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v3.0.8",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemLoader/releases/tag/v3.0.8",
-      "publishedAt": "2026-11-02T19:05:05Z",
-      "version": "3.0.8",
+      "releaseTag": "v3.0.9",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemLoader/releases/tag/v3.0.9",
+      "publishedAt": "2026-11-02T23:17:42Z",
+      "version": "3.0.9",
       "components": [
         {
           "id": "renegadex.silverpine.customitemloader",
           "name": "Custom Item Loader",
-          "version": "3.0.8",
+          "version": "3.0.9",
           "assembly": "CustomItemLoader",
           "kind": "plugin",
           "dependencies": [
             {
               "id": "Saelac.Silverpine.ModdingTools",
-              "minimumVersion": "1.13.0",
+              "minimumVersion": "1.13.1",
               "optional": false
             }
           ]
@@ -982,15 +982,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.13.0",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools/releases/tag/v1.13.0",
-      "publishedAt": "2026-10-31T14:15:08Z",
-      "version": "1.13.0",
+      "releaseTag": "v1.13.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-Modding-Tools/releases/tag/v1.13.1",
+      "publishedAt": "2026-11-02T23:17:41Z",
+      "version": "1.13.1",
       "components": [
         {
           "id": "Saelac.Silverpine.ModdingTools",
           "name": "Modding Tools Menu",
-          "version": "1.13.0",
+          "version": "1.13.1",
           "assembly": "ModdingTools",
           "kind": "plugin",
           "dependencies": []
@@ -998,13 +998,13 @@
         {
           "id": "renegadex.silverpine.moddingtools",
           "name": "Modding Tools Legacy GUID Compatibility",
-          "version": "1.13.0",
+          "version": "1.13.1",
           "assembly": "ModdingTools",
           "kind": "plugin",
           "dependencies": [
             {
               "id": "Saelac.Silverpine.ModdingTools",
-              "minimumVersion": "1.13.0",
+              "minimumVersion": "1.13.1",
               "optional": false
             }
           ]

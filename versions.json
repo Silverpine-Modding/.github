@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T05:58:53.8789933\u002B00:00",
+  "generatedAt": "2026-11-02T19:06:12.2719646\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -529,15 +529,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v3.0.7",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemLoader/releases/tag/v3.0.7",
-      "publishedAt": "2026-10-31T23:56:07Z",
-      "version": "3.0.7",
+      "releaseTag": "v3.0.8",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomItemLoader/releases/tag/v3.0.8",
+      "publishedAt": "2026-11-02T19:05:05Z",
+      "version": "3.0.8",
       "components": [
         {
           "id": "renegadex.silverpine.customitemloader",
           "name": "Custom Item Loader",
-          "version": "3.0.7",
+          "version": "3.0.8",
           "assembly": "CustomItemLoader",
           "kind": "plugin",
           "dependencies": [

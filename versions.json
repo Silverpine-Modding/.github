@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T23:19:09.9950508\u002B00:00",
+  "generatedAt": "2026-11-13T14:11:28Z",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -1589,15 +1589,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v0.4.9",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineVerticalLayers/releases/tag/v0.4.9",
-      "publishedAt": "2026-10-29T09:17:15Z",
-      "version": "0.4.9",
+      "releaseTag": "v0.4.10",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineVerticalLayers/releases/tag/v0.4.10",
+      "publishedAt": "2026-11-13T14:11:06Z",
+      "version": "0.4.10",
       "components": [
         {
           "id": "renegadex.silverpine.verticallayers",
           "name": "Silverpine Vertical Layers",
-          "version": "0.4.9",
+          "version": "0.4.10",
           "assembly": "SilverpineVerticalLayers",
           "kind": "plugin",
           "dependencies": [
@@ -1656,15 +1656,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.2.12",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-StructureHandler/releases/tag/v1.2.12",
-      "publishedAt": "2026-10-29T11:58:08Z",
-      "version": "1.2.12",
+      "releaseTag": "v1.2.26",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-StructureHandler/releases/tag/v1.2.26",
+      "publishedAt": "2026-11-13T14:11:03Z",
+      "version": "1.2.26",
       "components": [
         {
           "id": "renegadex.silverpine.customstructures",
           "name": "Structure Handler",
-          "version": "1.2.12",
+          "version": "1.2.26",
           "assembly": "StructureHandler",
           "kind": "plugin",
           "dependencies": [

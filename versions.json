@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T20:35:49.1503211\u002B00:00",
+  "generatedAt": "2026-11-14T20:38:07.1495233\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -652,7 +652,7 @@
     },
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-CustomWorldSetup",
-      "name": "Acacia\u0027s Den Relocator",
+      "name": "Custom World Setup",
       "description": "Custom World Setup is a BepInEx plugin for Silverpine 1.7.3 that replaces the base game\u0027s fixed world layout with a JSON-defined grid. It includes an in-game visual editor, custom road and river masks, automatic bridges, persistent wilderness tiles, and fully buildable tiles.",
       "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomWorldSetup",
       "status": "active",

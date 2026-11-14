@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T06:15:38.5095018\u002B00:00",
+  "generatedAt": "2026-11-14T20:35:49.1503211\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -652,7 +652,7 @@
     },
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-CustomWorldSetup",
-      "name": "Custom World Setup",
+      "name": "Acacia\u0027s Den Relocator",
       "description": "Custom World Setup is a BepInEx plugin for Silverpine 1.7.3 that replaces the base game\u0027s fixed world layout with a JSON-defined grid. It includes an in-game visual editor, custom road and river masks, automatic bridges, persistent wilderness tiles, and fully buildable tiles.",
       "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomWorldSetup",
       "status": "active",
@@ -660,35 +660,35 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.0.0",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomWorldSetup/releases/tag/v1.0.0",
-      "publishedAt": "2026-08-18T14:59:05Z",
-      "version": "1.0.0",
+      "releaseTag": "v1.1.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomWorldSetup/releases/tag/v1.1.1",
+      "publishedAt": "2026-11-14T18:25:59Z",
+      "version": "1.1.1",
       "components": [
-        {
-          "id": "renegadex.silverpine.customworldsetup",
-          "name": "Custom World Setup",
-          "version": "1.0.0",
-          "assembly": "CustomWorldSetup",
-          "kind": "plugin",
-          "dependencies": [
-            {
-              "id": "Saelac.Silverpine.ModdingTools",
-              "minimumVersion": null,
-              "optional": false
-            }
-          ]
-        },
         {
           "id": "renegadex.silverpine.acaciadenrelocator",
           "name": "Acacia\u0027s Den Relocator",
-          "version": "1.0.0",
+          "version": "1.1.1",
           "assembly": "AcaciaDenRelocator",
           "kind": "plugin",
           "dependencies": [
             {
               "id": "renegadex.silverpine.customworldsetup",
-              "minimumVersion": null,
+              "minimumVersion": "1.1.1",
+              "optional": false
+            }
+          ]
+        },
+        {
+          "id": "renegadex.silverpine.customworldsetup",
+          "name": "Custom World Setup",
+          "version": "1.1.1",
+          "assembly": "CustomWorldSetup",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.13.1",
               "optional": false
             }
           ]
@@ -696,13 +696,13 @@
         {
           "id": "renegadex.silverpine.orianalakerelocator",
           "name": "Oriana Lake Relocator",
-          "version": "1.0.0",
+          "version": "1.1.1",
           "assembly": "OrianaLakeRelocator",
           "kind": "plugin",
           "dependencies": [
             {
               "id": "renegadex.silverpine.customworldsetup",
-              "minimumVersion": null,
+              "minimumVersion": "1.1.1",
               "optional": false
             }
           ]
@@ -710,13 +710,13 @@
         {
           "id": "renegadex.silverpine.orsoncabinrelocator",
           "name": "Orson Cabin Relocator",
-          "version": "1.1.0",
+          "version": "1.2.1",
           "assembly": "OrsonCabinRelocator",
           "kind": "plugin",
           "dependencies": [
             {
               "id": "renegadex.silverpine.customworldsetup",
-              "minimumVersion": null,
+              "minimumVersion": "1.1.1",
               "optional": false
             }
           ]
@@ -1768,15 +1768,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.4.2",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-VendorInventoryManager/releases/tag/v1.4.2",
-      "publishedAt": "2026-08-18T14:59:42Z",
-      "version": "1.4.2",
+      "releaseTag": "v1.4.3",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-VendorInventoryManager/releases/tag/v1.4.3",
+      "publishedAt": "2026-11-14T14:27:26Z",
+      "version": "1.4.3",
       "components": [
         {
           "id": "renegadex.silverpine.vendorinventorymanager",
           "name": "Vendor Inventory Manager",
-          "version": "1.4.2",
+          "version": "1.4.3",
           "assembly": "VendorInventoryManager",
           "kind": "plugin",
           "dependencies": [

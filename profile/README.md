@@ -142,4 +142,4 @@ Building a plugin? Start with the [Modding Tools framework and API documentation
 
 ---
 
-Catalog checked against the organization's public repositories and latest stable releases on **October 26, 2026**: **57 projects — 54 current mods, 1 standalone editor, and 2 obsolete mods**. The [machine-readable mod catalog](https://github.com/Silverpine-Modding/.github/blob/main/versions.json) tracks published DLL versions and refreshes automatically. [Browse all repositories](https://github.com/orgs/Silverpine-Modding/repositories).
+Catalog checked against the organization's public repositories and latest stable releases on **October 26, 2026**: **57 projects — 54 current mods, 1 standalone editor, and 2 obsolete mods**. The [machine-readable mod catalog](https://github.com/Silverpine-Modding/.github/blob/main/versions.json) tracks published DLL versions and is refreshed manually by maintainers. [Browse all repositories](https://github.com/orgs/Silverpine-Modding/repositories).

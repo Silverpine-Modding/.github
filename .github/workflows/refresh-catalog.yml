@@ -1,16 +1,6 @@
 name: Refresh mod version catalog
 on:
   workflow_dispatch:
-  repository_dispatch:
-    types: [refresh-catalog]
-  schedule:
-    - cron: '17 */6 * * *'
-  push:
-    branches: [main]
-    paths:
-      - 'tools/CatalogBuilder/**'
-      - 'catalog-overrides.json'
-      - '.github/workflows/refresh-catalog.yml'
 permissions:
   contents: write
 concurrency:

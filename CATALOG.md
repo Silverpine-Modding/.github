@@ -25,12 +25,12 @@ SILC Studio is a standalone executable and is deliberately excluded.
 
 ## Refreshing
 
-The **Refresh mod version catalog** workflow runs every six hours, on manual
-workflow dispatch, on repository_dispatch type refresh-catalog, and when its
-builder/configuration changes. GitHub schedules can be delayed; maintainers
-can run the workflow immediately after publishing a release. Public-repository
-schedules may be disabled by GitHub after prolonged repository inactivity;
-re-enable the workflow in Actions when needed.
+The **Refresh mod version catalog** workflow runs only when manually dispatched.
+There are no scheduled, push, or repository-dispatch triggers. After publishing
+a release, open **Actions → Refresh mod version catalog → Run workflow** on
+GitHub, or run:
+
+    gh workflow run refresh-catalog.yml --repo Silverpine-Modding/.github --ref main
 
 The builder enumerates all public Silverpine-Modding repositories and uses
 GitHub's latest stable release endpoint. It inspects standalone DLLs and the
@@ -38,7 +38,7 @@ primary ZIP without executing them. It discovers additional bundled plugin
 identities, deduplicates matching DLL/ZIP metadata, excludes bundled copies
 of the shared framework, and fails on conflicting identities.
 Standalone utilities must be marked kind: tool in catalog-overrides.json.
-New mod repositories are picked up automatically.
+New mod repositories are discovered during each manually requested refresh.
 
 Run locally with .NET 9 or newer:
 

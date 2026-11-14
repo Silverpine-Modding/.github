@@ -58,6 +58,12 @@ explicitly in catalog-overrides.json; the builder does not guess obsolescence
 from release-note prose. The optional assemblies array can restrict an entry
 to specific DLL filenames when a package contains unrelated plugins.
 
+For releases with multiple plugins, `primaryComponent` can select the released
+component GUID used for the repository's display name and version. All bundled
+components remain listed. This avoids depending on release-asset ordering when
+addons have their own standalone DLL downloads. A missing primary identity fails
+the refresh without replacing the previous catalog.
+
 If no stable release exists the repository is marked unreleased, with no
 component mapping. Failed/unloaded local plugins remain outside the checker's
 loaded-plugin inventory. Do not report missing catalog matches as current.

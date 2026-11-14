@@ -93,8 +93,12 @@ foreach (var repo in repos.Where(r => S(r, "name") != ".github").OrderBy(r => S(
             }
         }
         if (components.Count == 0) throw new InvalidDataException(name + ": no plugin/patcher metadata in published assets.");
-        entry["version"] = components[0]!["version"]!.DeepClone();
-        entry["name"] = components[0]!["name"]!.DeepClone();
+        string? primaryId = policy?["primaryComponent"]?.GetValue<string>();
+        var primary = primaryId == null ? components[0]! :
+            components.FirstOrDefault(c => S(c!, "id").Equals(primaryId, StringComparison.OrdinalIgnoreCase))
+            ?? throw new InvalidDataException(name + ": primary component not found in published assets: " + primaryId);
+        entry["version"] = primary["version"]!.DeepClone();
+        entry["name"] = primary["name"]!.DeepClone();
         Console.WriteLine($"{name}: {S(release, "tag_name")} / {components.Count} identities");
     }
     mods.Add(entry);

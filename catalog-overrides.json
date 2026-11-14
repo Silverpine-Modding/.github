@@ -1,5 +1,8 @@
 {
   "Silverpine-Saelac-SILCStudio": { "kind": "tool" },
+  "Silverpine-Saelac-CustomWorldSetup": {
+    "primaryComponent": "renegadex.silverpine.customworldsetup"
+  },
   "Silverpine-Saelac-CustomItemFreezeFix": {
     "status": "obsolete",
     "replacementRepository": "Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug",

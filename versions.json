@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T00:16:30.7705837\u002B00:00",
+  "generatedAt": "2026-11-21T06:29:47.4689882\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -109,6 +109,42 @@
               "id": "renegadex.silverpine.customitemloader",
               "minimumVersion": "1.8.3",
               "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-AdventurersGuild",
+      "name": "Adventurers\u2019 Guild",
+      "description": "Run an adventurers\u0027 guild in Silverpine with a quest board, named adventurers, player commissions, escorts, and rescues.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AdventurersGuild",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.5.2",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AdventurersGuild/releases/tag/v1.5.2",
+      "publishedAt": "2026-11-21T06:28:19Z",
+      "version": "1.5.2",
+      "components": [
+        {
+          "id": "silverpine.adventurersguild",
+          "name": "Adventurers\u2019 Guild",
+          "version": "1.5.2",
+          "assembly": "AdventurersGuild",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.13.0",
+              "optional": false
+            },
+            {
+              "id": "silverpine.companionparty",
+              "minimumVersion": null,
+              "optional": true
             }
           ]
         }
@@ -319,6 +355,52 @@
               "id": "Saelac.Silverpine.ModdingTools",
               "minimumVersion": "1.10.0",
               "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CompanionParty",
+      "name": "Companion Party",
+      "description": "Recruit Silverpine residents as companions with persistent inventories, personal gold, combat orders, and optional guild expeditions.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CompanionParty",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v0.2.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CompanionParty/releases/tag/v0.2.0",
+      "publishedAt": "2026-11-21T06:28:21Z",
+      "version": "0.2.0",
+      "components": [
+        {
+          "id": "silverpine.companionparty",
+          "name": "Companion Party",
+          "version": "0.2.0",
+          "assembly": "CompanionParty",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.13.0",
+              "optional": false
+            },
+            {
+              "id": "renegadex.silverpine.customitemloader",
+              "minimumVersion": null,
+              "optional": true
+            },
+            {
+              "id": "renegadex.silverpine.attributeexpansion",
+              "minimumVersion": null,
+              "optional": true
+            },
+            {
+              "id": "renegadex.silverpine.additionalequipmentslots",
+              "minimumVersion": null,
+              "optional": true
             }
           ]
         }
@@ -1447,6 +1529,31 @@
               "optional": false
             }
           ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-RandomSpriteTileFix",
+      "name": "Random Sprite Tile Fix",
+      "description": "Fix duplicate-coordinate errors when Silverpine restores overlapping scenery on a world tile.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-RandomSpriteTileFix",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-RandomSpriteTileFix/releases/tag/v1.0.0",
+      "publishedAt": "2026-11-21T06:28:20Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "silverpine.randomspritetilefix",
+          "name": "Random Sprite Tile Fix",
+          "version": "1.0.0",
+          "assembly": "RandomSpriteTileFix",
+          "kind": "plugin",
+          "dependencies": []
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T06:41:22.1956922\u002B00:00",
+  "generatedAt": "2026-11-22T01:35:23.0573330\u002B00:00",
   "mods": [
     {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AcaciaCustomContentPatcher",
@@ -84,6 +84,37 @@
       ]
     },
     {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-AdditionalBannedTokens",
+      "name": "Additional Banned Tokens",
+      "description": "Add player-configurable banned tokens to Silverpine\u0027s dialogue generation settings.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AdditionalBannedTokens",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AdditionalBannedTokens/releases/tag/v1.0.0",
+      "publishedAt": "2026-11-22T01:33:28Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "renegadex.silverpine.additionalbannedtokens",
+          "name": "Additional Banned Tokens",
+          "version": "1.0.0",
+          "assembly": "AdditionalBannedTokens",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.9.2",
+              "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "repository": "Silverpine-Modding/Silverpine-Saelac-AdditionalEquipmentSlots",
       "name": "Additional Equipment Slots",
       "description": "Adds twenty-two logical equipment slots to Silverpine 1.7.3, integrated with Custom Item Loader 1.8.3 or later.",
@@ -124,15 +155,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.5.2",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AdventurersGuild/releases/tag/v1.5.2",
-      "publishedAt": "2026-11-21T06:28:19Z",
-      "version": "1.5.2",
+      "releaseTag": "v1.7.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-AdventurersGuild/releases/tag/v1.7.0",
+      "publishedAt": "2026-11-22T01:32:33Z",
+      "version": "1.7.0",
       "components": [
         {
           "id": "silverpine.adventurersguild",
           "name": "Adventurers\u2019 Guild",
-          "version": "1.5.2",
+          "version": "1.7.0",
           "assembly": "AdventurersGuild",
           "kind": "plugin",
           "dependencies": [
@@ -370,15 +401,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v0.2.0",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CompanionParty/releases/tag/v0.2.0",
-      "publishedAt": "2026-11-21T06:28:21Z",
-      "version": "0.2.0",
+      "releaseTag": "v0.2.6",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CompanionParty/releases/tag/v0.2.6",
+      "publishedAt": "2026-11-22T01:32:39Z",
+      "version": "0.2.6",
       "components": [
         {
           "id": "silverpine.companionparty",
           "name": "Companion Party",
-          "version": "0.2.0",
+          "version": "0.2.6",
           "assembly": "CompanionParty",
           "kind": "plugin",
           "dependencies": [
@@ -399,6 +430,11 @@
             },
             {
               "id": "renegadex.silverpine.additionalequipmentslots",
+              "minimumVersion": null,
+              "optional": true
+            },
+            {
+              "id": "renegadex.silverpine.revealing",
               "minimumVersion": null,
               "optional": true
             }
@@ -503,15 +539,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.3.1",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomCraftingRecipes/releases/tag/v1.3.1",
-      "publishedAt": "2026-11-02T22:31:53Z",
-      "version": "1.3.1",
+      "releaseTag": "v1.7.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomCraftingRecipes/releases/tag/v1.7.0",
+      "publishedAt": "2026-11-22T01:32:45Z",
+      "version": "1.7.0",
       "components": [
         {
           "id": "renegadex.silverpine.customcraftingrecipes",
           "name": "Custom Crafting Recipes",
-          "version": "1.3.1",
+          "version": "1.7.0",
           "assembly": "CustomCraftingRecipes",
           "kind": "plugin",
           "dependencies": [
@@ -575,15 +611,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.8.4",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomGrowables/releases/tag/v1.8.4",
-      "publishedAt": "2026-11-02T23:17:46Z",
-      "version": "1.8.4",
+      "releaseTag": "v1.9.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomGrowables/releases/tag/v1.9.0",
+      "publishedAt": "2026-11-22T01:32:52Z",
+      "version": "1.9.0",
       "components": [
         {
           "id": "renegadex.silverpine.customgrowables",
           "name": "Custom Growables",
-          "version": "1.8.4",
+          "version": "1.9.0",
           "assembly": "CustomGrowables",
           "kind": "plugin",
           "dependencies": [
@@ -704,6 +740,37 @@
           "assembly": "CustomNPCKnowledgeVariables",
           "kind": "plugin",
           "dependencies": []
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-CustomNPCRoutineTransfer",
+      "name": "Custom NPC Routine Transfer",
+      "description": "Export and import routine packs between custom NPC definitions in Silverpine.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomNPCRoutineTransfer",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-CustomNPCRoutineTransfer/releases/tag/v1.0.1",
+      "publishedAt": "2026-11-22T01:33:39Z",
+      "version": "1.0.1",
+      "components": [
+        {
+          "id": "renegadex.silverpine.customnpcroutinetransfer",
+          "name": "Custom NPC Routine Transfer",
+          "version": "1.0.1",
+          "assembly": "CustomNPCRoutineTransfer",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": null,
+              "optional": false
+            }
+          ]
         }
       ]
     },
@@ -893,6 +960,31 @@
       ]
     },
     {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-ExtendedCustomNPCSlotsPatcher",
+      "name": "ExtendedCustomNPCSlots.Patcher",
+      "description": "Expand Silverpine 1.7.3 to 64 custom NPC slots with a BepInEx preloader patcher.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ExtendedCustomNPCSlotsPatcher",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.2.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ExtendedCustomNPCSlotsPatcher/releases/tag/v1.2.0",
+      "publishedAt": "2026-11-22T01:33:48Z",
+      "version": "1.2.0.0",
+      "components": [
+        {
+          "id": "assembly:ExtendedCustomNPCSlots.Patcher",
+          "name": "ExtendedCustomNPCSlots.Patcher",
+          "version": "1.2.0.0",
+          "assembly": "ExtendedCustomNPCSlots.Patcher",
+          "kind": "patcher",
+          "dependencies": []
+        }
+      ]
+    },
+    {
       "repository": "Silverpine-Modding/Silverpine-Saelac-ExtendedCustomNPCSlotsRumorFix",
       "name": "Extended Custom NPC Slots Rumor Fix",
       "description": "Companion fix for ExtendedCustomNPCSlots.Patcher.dll on Silverpine 1.7.3.",
@@ -983,15 +1075,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.2.0",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-InventoryEditor/releases/tag/v1.2.0",
-      "publishedAt": "2026-10-12T10:33:17Z",
-      "version": "1.2.0",
+      "releaseTag": "v1.3.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-InventoryEditor/releases/tag/v1.3.0",
+      "publishedAt": "2026-11-22T01:32:59Z",
+      "version": "1.3.0",
       "components": [
         {
           "id": "Saelac.Silverpine.InventoryEditor",
           "name": "Inventory Editor",
-          "version": "1.2.0",
+          "version": "1.3.0",
           "assembly": "InventoryEditor",
           "kind": "plugin",
           "dependencies": [
@@ -1365,6 +1457,37 @@
       ]
     },
     {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-ParallelDefinitionLoader",
+      "name": "Parallel Definition Loader",
+      "description": "Speed up custom character loading in Silverpine with parallel archive reads and deferred portraits.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ParallelDefinitionLoader",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.1.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-ParallelDefinitionLoader/releases/tag/v1.1.0",
+      "publishedAt": "2026-11-22T01:33:58Z",
+      "version": "1.1.0",
+      "components": [
+        {
+          "id": "silverpine.paralleldefinitionloader",
+          "name": "Parallel Definition Loader",
+          "version": "1.1.0",
+          "assembly": "ParallelDefinitionLoader",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.QuitToMainMenu",
+              "minimumVersion": null,
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "repository": "Silverpine-Modding/Silverpine-Saelac-PlayerCharacterSpriteScaler",
       "name": "Player Character Sprite Scaler",
       "description": "Version 1.4.0 is a BepInEx plugin for Silverpine\u0027s custom player-character editor. It provides separate X/Y controls for:",
@@ -1665,15 +1788,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v0.27.0",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug/releases/tag/v0.27.0",
-      "publishedAt": "2026-11-15T17:14:14Z",
-      "version": "0.27.0",
+      "releaseTag": "v0.27.1",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SaltExtraDebug/releases/tag/v0.27.1",
+      "publishedAt": "2026-11-22T01:33:06Z",
+      "version": "0.27.1",
       "components": [
         {
           "id": "salt.silverpine.extradebug",
           "name": "Salt Extra Debug",
-          "version": "0.27.0",
+          "version": "0.27.1",
           "assembly": "SaltExtraDebug",
           "kind": "plugin",
           "dependencies": []
@@ -1706,6 +1829,57 @@
               "id": "Saelac.Silverpine.ModdingTools",
               "minimumVersion": null,
               "optional": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-SilverpineSkills",
+      "name": "Silverpine Skills",
+      "description": "Earn XP and spend skill points on gathering, crafting, social, guild and party perks in Silverpine.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineSkills",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v0.3.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-SilverpineSkills/releases/tag/v0.3.0",
+      "publishedAt": "2026-11-22T01:34:08Z",
+      "version": "0.3.0",
+      "components": [
+        {
+          "id": "silverpine.skills",
+          "name": "Silverpine Skills",
+          "version": "0.3.0",
+          "assembly": "SilverpineSkills",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.13.0",
+              "optional": false
+            },
+            {
+              "id": "silverpine.adventurersguild",
+              "minimumVersion": null,
+              "optional": true
+            },
+            {
+              "id": "renegadex.silverpine.customcraftingrecipes",
+              "minimumVersion": null,
+              "optional": true
+            },
+            {
+              "id": "renegadex.silverpine.customgrowables",
+              "minimumVersion": null,
+              "optional": true
+            },
+            {
+              "id": "silverpine.companionparty",
+              "minimumVersion": null,
+              "optional": true
             }
           ]
         }
@@ -1788,15 +1962,15 @@
       "notes": null,
       "replacementRepository": null,
       "replacementMinimumVersion": null,
-      "releaseTag": "v1.2.29",
-      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-StructureHandler/releases/tag/v1.2.29",
-      "publishedAt": "2026-11-21T00:15:38Z",
-      "version": "1.2.29",
+      "releaseTag": "v1.2.38",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-StructureHandler/releases/tag/v1.2.38",
+      "publishedAt": "2026-11-22T01:33:12Z",
+      "version": "1.2.38",
       "components": [
         {
           "id": "renegadex.silverpine.customstructures",
           "name": "Structure Handler",
-          "version": "1.2.29",
+          "version": "1.2.38",
           "assembly": "StructureHandler",
           "kind": "plugin",
           "dependencies": [
@@ -1932,6 +2106,37 @@
               "id": "renegadex.silverpine.customitemloader",
               "minimumVersion": null,
               "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "Silverpine-Modding/Silverpine-Saelac-WoodlandPassage",
+      "name": "Woodland Passage",
+      "description": "Configure which trees, fallen wood and rocks the player can pass through in Silverpine.",
+      "repositoryUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-WoodlandPassage",
+      "status": "active",
+      "kind": "mod",
+      "notes": null,
+      "replacementRepository": null,
+      "replacementMinimumVersion": null,
+      "releaseTag": "v1.0.0",
+      "releaseUrl": "https://github.com/Silverpine-Modding/Silverpine-Saelac-WoodlandPassage/releases/tag/v1.0.0",
+      "publishedAt": "2026-11-22T01:34:18Z",
+      "version": "1.0.0",
+      "components": [
+        {
+          "id": "silverpine.woodlandpassage",
+          "name": "Woodland Passage",
+          "version": "1.0.0",
+          "assembly": "WoodlandPassage",
+          "kind": "plugin",
+          "dependencies": [
+            {
+              "id": "Saelac.Silverpine.ModdingTools",
+              "minimumVersion": "1.10.0",
+              "optional": false
             }
           ]
         }
